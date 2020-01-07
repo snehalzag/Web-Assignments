@@ -1,0 +1,27 @@
+
+/*Using Psuedo Elements to change font size of first letter of heading */
+h1::first-letter{
+    text-transform: capitalize;
+    font-size: 38px;
+}
+
+/* to change background color of each post on hover*/
+.box:hover{
+    background-color:rgb(250, 249, 249);
+}
+
+/* to change background color of each post on hover*/
+.box1:hover{
+    background-color:rgb(250, 249, 249);
+}
+
+/* to change Cursor style on hover bookmark image*/
+i:hover{
+    cursor: pointer;
+    color: red;
+}
+
+/* to add underline for navbar contents on hover*/ 
+a:hover{
+    cursor: pointer;
+}

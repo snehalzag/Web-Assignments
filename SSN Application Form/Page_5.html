@@ -1,0 +1,814 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> Page 5 (Form) </title>
+    <!--For creating tabular format using div tag-->
+    <style type="text/css">
+        .table {
+            display: table;
+        }
+
+        .table-row {
+            display: table-row;
+        }
+
+        .table-cell {
+            display: table-cell;
+            padding: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div style="background-color:lightyellow">
+        <center><b>
+                <font size="4">SOCIAL SECURITY ADMINISTRATION </h3>
+                </font>
+            </b></center>
+        <center><b>
+                <font size="4">Application for a Social Security Card </h3>
+                </font>
+            </b></center>
+        <br>
+        <form>
+
+            <div style="border:1px solid; width:65%; margin-left:20%; background-color:floralwhite">
+                <!--Outer border of form-->
+                <div class="table">
+                    <div class="table-row">
+                        <div class="table-cell">
+                            <b>
+                                <font size="5"> 1) </font>
+                            </b>
+                        </div>
+                        <div class="table-cell">
+                            <div class="table">
+                                <!--row 1A-->
+                                <div class="table-row">
+                                    <div class="table-cell">
+                                        <b>NAME</b>
+                                        <br>
+                                        <font size="2">TO BE SHOWN ON CARD </font>
+                                    </div>
+                                    <div class="table-cell">
+                                        <input type="text" name="fname" size="20" required placeholder="First Name">
+                                        <br>
+                                        <font size="2">First Name </font>
+                                    </div>
+                                    <div class="table-cell">
+                                        <input type="text" name="mname" size="20" required placeholder="Middle Name">
+                                        <br>
+                                        <font size="2">Full Middle Name</font>
+                                    </div>
+                                    <div class="table-cell">
+                                        <input type="text" name="lname" size="20" required placeholder="Last Name">
+                                        <br>
+                                        <font size="2">Last Name</font>
+                                    </div>
+                                </div>
+
+                                <!--row 1B-->
+                                <div class="table-row">
+                                    <div class="table-cell">
+                                        <font size="2">FULL NAME AT BIRTH
+                                            <br>IF OTHER THAN ABOVE </font>
+                                    </div>
+                                    <div class="table-cell">
+                                        <input type="text" name="f2name" size="20" required placeholder="First Name">
+                                        <br>
+                                        <font size="2">First Name </font>
+                                    </div>
+                                    <div class="table-cell">
+                                        <input type="text" name="m2name" size="20" required placeholder="Middle Name">
+                                        <br>
+                                        <font size="2">Full Middle Name</font>
+                                    </div>
+                                    <div class="table-cell">
+                                        <input type="text" name="l2name" size="20" required placeholder="Last Name">
+                                        <br>
+                                        <font size="2">Last Name</font>
+                                    </div>
+                                </div>
+
+                                <!--row 1C-->
+                                <div class="table-row">
+                                    <div class="table-cell">
+                                        <font size="2">OTHER NAMES USED </font>
+                                    </div>
+                                    <div class="table-cell">
+                                        <input type="text" name="OtherName" size="20">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <!--2nd row Social Security number-->
+                    <div class="table-row">
+                        <div class="table-cell">
+                            <b>
+                                <font size="5"> 2) </font>
+                            </b>
+                        </div>
+                        <div class="table-cell">
+                            <div class="table">
+                                <!--row 1A-->
+                                <div class="table-row">
+                                    <div class="table-cell">
+                                        Social Security Number previously
+                                        <br>assigned to the person listed in item 1
+                                    </div>
+                                    <div class="table-cell">
+                                        <input type="text" name="3SSN" pattern="[0-9]{3}" minlength="3" maxlength="3"
+                                            placeholder="First 3 Digits">
+                                        -
+                                        <input type="text" name="2SSN" pattern="[0-9]{2}" minlength="2" maxlength="2"
+                                            placeholder="Second 2 Digits"> -
+                                        <input type="text" name="4SSN" pattern="[0-9]{4}" minlength="4" maxlength="4"
+                                            placeholder="Last 4 Digits">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <!--3rd Row Place of birth and date of birth-->
+                    <div class="table-row">
+                        <div class="table-cell">
+                            <b>
+                                <font size="5">3)</font>
+                            </b>
+                        </div>
+                        <div class="table-cell">
+                            <div class="table">
+                                <!--row 3A-->
+                                <div class="table-row">
+                                    <div class="table-cell">
+                                        <b>PLACE
+                                            <BR>OF BIRTH</b>
+                                        <br>
+                                        <font size="2">Do not abbreviate</font>
+                                    </div>
+                                    <div class="table-cell">
+                                        <input type="text" name="city" size="20" required spellcheck="true">
+                                        <input type="text" name="state" size="20" required spellcheck="true">
+                                        <br>
+                                        <font size="2">City &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+                                            &nbsp
+                                            &nbsp &nbsp &nbsp
+                                            &nbsp &nbsp &nbsp &nbsp &nbsp
+                                            State or Foreign Country </font>
+                                    </div>
+
+
+                                    <div class="table-cell">
+                                        <!--To create space between-->
+                                    </div>
+                                    <div class="table-cell">
+                                        <!--To create space between-->
+                                    </div>
+
+
+                                    <!--row 3B-->
+                                    <div class="table-cell">
+                                        <b>
+                                            <font size="5">4)</font>
+                                        </b>
+                                    </div>
+                                    <div class="table-cell">
+                                        <b>DATE
+                                            <BR>OF
+                                            <BR> BIRTH</b>
+                                    </div>
+                                    <div class="table-cell">
+                                        <input type="date" name="dob" data-date-format="MM/DD/YYYY" required>
+                                        <br>
+                                        <font size="2">MM/DD/YYYY</font>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <!--4th Row Citizenship-->
+                    <div class="table-row">
+                        <div class="table-cell">
+                            <b>
+                                <font size="5">5)</font>
+                            </b>
+                        </div>
+                        <div class="table-cell">
+                            <div class="table">
+                                <!--row 1A-->
+                                <div class="table-row">
+                                    <div class="table-cell">
+                                        <b>CITIZENSHIP</b>
+                                        <br>
+                                        <font size="2">(Check one)</font>
+                                    </div>
+                                    <div class="table-cell">
+                                        <input type="radio" name="citizenship" value="US" required>U.S. Citizen
+                                    </div>
+                                    <div class="table-cell">
+                                        <input type="radio" name="citizenship" value="Allowed to work" required>Legal
+                                        Alien
+                                        <br>Allowed To Work
+                                    </div>
+                                    <div class="table-cell">
+                                        <input type="radio" name="citizenship" value="Not Allowed to work"
+                                            required>Legal Alien
+                                        NOT
+                                        Allowed
+                                        <br>To Work (See Instructions
+                                        <br> on Page 3)
+                                    </div>
+                                    <div class="table-cell">
+                                        <label>
+                                            <input type="radio" name="citizenship" value="Other" required>
+                                        </label>Other
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <!--5th Row Ethnicity and Race-->
+                    <div class="table-row">
+                        <div class="table-cell">
+                            <b>
+                                <font size="5">6)</font>
+                            </b>
+                        </div>
+                        <div class="table-cell">
+                            <div class="table">
+                                <!--row 5A-->
+                                <div class="table-row">
+                                    <div class="table-cell">
+                                        <b>ETHNICITY</b>
+                                        <br>
+                                        <font size="2">Are You Hispanic or Latino?
+                                            <br> (Your Response is Voluntry)
+                                        </font>
+                                        <br>
+                                        <input type="radio" name="ethnicity" value="yes" required>Yes
+                                        <input type="radio" name="ethnicity" value="no" required>No
+                                    </div>
+
+                                    <div class="table-cell">
+                                        <!--To create space between-->
+                                    </div>
+                                    <div class="table-cell">
+                                        <!--To create space between-->
+                                    </div>
+
+                                    <!--row 5B-->
+                                    <div class="table-cell">
+                                        <b>
+                                            <font size="5">7)</font>
+                                        </b>
+                                    </div>
+                                    <div class="table-cell">
+                                        <b>RACE</b>
+                                        <BR>
+                                        <font size="2">Select one or More
+                                            <br> (Your Response is Voluntry)
+                                        </font>
+                                    </div>
+                                    <div class="table-cell">
+
+                                        <input type="checkbox" name="c1" value="Native Hawaiian">Native Hawaiian
+                                        <input type="checkbox" name="c2" value="American Indian">American Indian
+                                        <input type="checkbox" name="c3" value="Other Pasific Islander">Other Pasific
+                                        Islander
+                                        <br>
+                                        <input type="checkbox" name="c4" value="Alaska Native">Alaska Native
+                                        <input type="checkbox" name="c5" value="Black/African American">Black/African
+                                        American
+                                        <input type="checkbox" name="c6" value="White">White
+                                        <br>
+                                        <input type="checkbox" name="c7" value="Asian">Asian
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+                    <!--6th row Sex-->
+                    <div class="table-row">
+                        <div class="table-cell">
+                            <b>
+                                <font size="5">8)</font>
+                            </b>
+                        </div>
+                        <div class="table-cell">
+                            <div class="table">
+                                <!--row 1A-->
+                                <div class="table-row">
+                                    <div class="table-cell">
+                                        <b>SEX</b>
+                                    </div>
+
+                                    <div class="table-cell">
+                                        <!--To create space between-->
+                                    </div>
+                                    <div class="table-cell">
+                                        <!--To create space between-->
+                                    </div>
+                                    <div class="table-cell">
+                                        <!--To create space between-->
+                                    </div>
+                                    <div class="table-cell">
+                                        <!--To create space between-->
+                                    </div>
+
+                                    <div class="table-cell">
+                                        <input type="radio" name="sex" value="Male" required>Male
+                                    </div>
+
+                                    <div class="table-cell">
+                                        <!--To create space between-->
+                                    </div>
+                                    <div class="table-cell">
+                                        <!--To create space between-->
+                                    </div>
+
+                                    <div class="table-cell">
+                                        <input type="radio" name="sex" value="Female" required>Female
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <!--Row 7th ( Mother )-->
+                    <div class="table-row">
+                        <div class="table-cell">
+                            <br>
+                            <b>
+                                <font size="5"> 9) </font>
+                            </b>
+                        </div>
+                        <div class="table-cell">
+                            <div class="table">
+                                <!--row 7A-->
+                                <div class="table-row">
+                                    <div class="table-cell">
+                                        <b>A. PARENT/MOTHER'S
+                                            <br>NAME AT HER BIRTH </b>
+                                    </div>
+                                    <div class="table-cell">
+                                        <input type="text" name="motherfname" size="20" required
+                                            placeholder="First Name">
+                                        <br>
+                                        <font size="2">First Name </font>
+                                    </div>
+                                    <div class="table-cell">
+                                        <input type="text" name="mothermname" size="20" required
+                                            placeholder="Middle Name">
+                                        <br>
+                                        <font size="2">Full Middle Name</font>
+                                    </div>
+                                    <div class="table-cell">
+                                        <input type="text" name="motherlname" size="20" required
+                                            placeholder="Last Name">
+                                        <br>
+                                        <font size="2">Last Name</font>
+                                    </div>
+                                </div>
+
+                                <!--row 7B-->
+                                <div class="table-row">
+                                    <div class="table-cell">
+                                        <b>B. PARENT/MOTHER'S SOCIAL
+                                            <br>SECURITY NUMBER </b>
+                                        <font size="2">(See instructions for 9B on page 3)</font>
+                                    </div>
+                                    <div class="table-cell">
+                                        <input type="text" name="M3SSN" pattern="[0-9]{3}" minlength="3" maxlength="3"
+                                            placeholder="First 3 Digits">
+
+                                    </div>
+                                    <div class="table-cell">
+                                        <input type="text" name="M2SSN" pattern="[0-9]{2}" minlength="2" maxlength="2"
+                                            placeholder="Second 2 Digits">
+
+                                    </div>
+                                    <div class="table-cell">
+                                        <input type="text" name="M4SSN" pattern="[0-9]{4}" minlength="4" maxlength="4"
+                                            placeholder="Last 4 Digits">
+                                    </div>
+                                    <div class="table-cell">
+                                        <input type="checkbox" name="m1" value="Unknown">Unknown
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <!--Row 8th ( father )-->
+                    <div class="table-row">
+                        <div class="table-cell">
+                            <br>
+                            <b>
+                                <font size="5"> 10) </font>
+                            </b>
+                        </div>
+                        <div class="table-cell">
+                            <div class="table">
+                                <!--row 8A-->
+                                <div class="table-row">
+                                    <div class="table-cell">
+                                        <b>A. PARENT/FATHER'S
+                                            <br>NAME AT HIS BIRTH </b>
+                                    </div>
+                                    <div class="table-cell">
+                                        <input type="text" name="fatherfname" size="20" required
+                                            placeholder="First Name">
+                                        <br>
+                                        <font size="2">First Name </font>
+                                    </div>
+                                    <div class="table-cell">
+                                        <input type="text" name="fathermname" size="20" required
+                                            placeholder="Middle Name">
+                                        <br>
+                                        <font size="2">Full Middle Name</font>
+                                    </div>
+                                    <div class="table-cell">
+                                        <input type="text" name="fatherlname" size="20" required
+                                            placeholder="Last Name">
+                                        <br>
+                                        <font size="2">Last Name</font>
+                                    </div>
+                                </div>
+
+                                <!--row 8B-->
+                                <div class="table-row">
+                                    <div class="table-cell">
+                                        <b>B. PARENT/FATHER'S SOCIAL
+                                            <br>SECURITY NUMBER </b>
+                                        <font size="2">(See instructions for 10B on page 3)</font>
+                                    </div>
+                                    <div class="table-cell">
+                                        <input type="text" name="F3SSN" pattern="[0-9]{3}" minlength="3" maxlength="3"
+                                            placeholder="First 3 Digits">
+
+                                    </div>
+                                    <div class="table-cell">
+                                        <input type="text" name="F2SSN" pattern="[0-9]{2}" minlength="2" maxlength="2"
+                                            placeholder="Second 2 Digits">
+
+                                    </div>
+                                    <div class="table-cell">
+                                        <input type="text" name="F4SSN" pattern="[0-9]{4}" minlength="4" maxlength="4"
+                                            placeholder="Last 4 Digits">
+                                    </div>
+                                    <div class="table-cell">
+                                        <input type="checkbox" name="F1" value="Unknown">Unknown
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <!--9th row-->
+                    <div class="table-row">
+                        <div class="table-cell">
+                            <b>
+                                <font size="5"> 11) </font>
+                            </b>
+                        </div>
+                        <div class="table-cell">
+                            <div class="table">
+
+                                <div class="table-row">
+                                    <div class="table-cell">
+                                        Has the person listed in item 1 or anyone acting on his/her behalf ever filed
+                                        for or received a Social Security number card before?
+                                        <br>
+                                        <input type="radio" name="9" value="Yes" required>Yes (If "yes" answer questions
+                                        12-13)
+                                        &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+
+                                        <input type="radio" name="9" value="No" required>No
+                                        &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+
+                                        <input type="radio" name="9" value="Dontknow" required>Don't Know (If "don't
+                                        know,"
+                                        skip to question 14.)
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <!--Row 10th ( Recent social number )-->
+                    <div class="table-row">
+                        <div class="table-cell">
+                            <b>
+                                <font size="5"> 12) </font>
+                            </b>
+                        </div>
+                        <div class="table-cell">
+                            <div class="table">
+
+                                <div class="table-row">
+                                    <div class="table-cell">
+                                        Name shown on the most recent Social Security listed in item card 1
+                                    </div>
+                                    <div class="table-cell">
+                                        <input type="text" name="sfname" size="20" placeholder="First Name">
+                                        <br>
+                                        <font size="2">First Name </font>
+                                    </div>
+                                    <div class="table-cell">
+                                        <input type="text" name="smname" size="20" placeholder="Middle Name">
+                                        <br>
+                                        <font size="2">Full Middle Name</font>
+                                    </div>
+                                    <div class="table-cell">
+                                        <input type="text" name="slname" size="20" placeholder="Last Name">
+                                        <br>
+                                        <font size="2">Last Name</font>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+
+
+                    <!--Row 11th ( Issue Date )-->
+                    <div class="table-row">
+                        <div class="table-cell">
+                            <b>
+                                <font size="5"> 13) </font>
+                            </b>
+                        </div>
+                        <div class="table-cell">
+                            <div class="table">
+                                <div class="table-row">
+                                    <div class="table-cell">
+                                        Enter any different date of birth if used on an earlier application for a card
+                                    </div>
+                                    <div class="table-cell">
+                                        <input type="date" name="issueDate" data-date-format="MM/DD/YYYY">
+                                        <br>
+                                        <font size="2">MM/DD/YYYY</font>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--Row 12th ( Today's Date )-->
+                    <div class="table-row">
+                        <div class="table-cell">
+                            <b>
+                                <font size="5"> 14) </font>
+                            </b>
+                        </div>
+                        <div class="table-cell">
+                            <div class="table">
+                                <div class="table-row">
+                                    <div class="table-cell">
+                                        <b> TODAY'S
+                                            <br> DATE</b>
+                                    </div>
+                                    <div class="table-cell">
+                                        <input type="date" name="issueDate" data-date-format="MM/DD/YYYY" required>
+                                        <br>
+                                        <font size="2">MM/DD/YYYY</font>
+                                    </div>
+
+                                    <div class="table-cell">
+                                        <!--To create space between-->
+                                    </div>
+                                    <div class="table-cell">
+                                        <!--To create space between-->
+                                    </div>
+
+
+                                    <div class="table-cell">
+                                        <b>
+                                            <font size="5"> 15) </font>
+                                        </b>
+                                    </div>
+                                    <div class="table-cell">
+                                        <b> DAYTIME PHONE
+                                            <br> NUMBER
+                                        </b>
+                                    </div>
+
+                                    <div class="table-cell">
+                                        <input type="text" name="areaCode" size="3" pattern="[0-9]{3}" minlength="3"
+                                            maxlength="3" required>
+                                        <br>
+                                        <font size="2">Area Code</font>
+                                    </div>
+                                    <div class="table-cell">
+                                        <input type="text" name="phoneNo" size="10" pattern="[0-9]{10}" minlength="10"
+                                            maxlength="10" required>
+                                        <br>
+                                        <font size="2">Number</font>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <!--Row 13th ( Address )-->
+                    <div class="table-row">
+                        <div class="table-cell">
+                            <b>
+                                <font size="5"> 16) </font>
+                            </b>
+                        </div>
+                        <div class="table-cell">
+                            <div class="table">
+                                <div class="table-row">
+                                    <div class="table-cell">
+                                        <br>
+                                        <b> MAILING ADDRESS </b>
+                                        <br>
+                                        <font size="2">(Do Not Abbreviate)</font>
+                                    </div>
+                                    <div class="table-cell">
+
+                                        <div class="table">
+                                            <div class="table-row">
+
+                                                <div class="table-cell">
+                                                    <font size="2">Street Address, Apt. No., PO Box, Rural Route No.
+                                                    </font>
+                                                    <br>
+                                                    <input type="textarea" size=50 name="add" required>
+                                                </div>
+                                            </div>
+                                            <div class="table-row">
+                                                <div class="table-cell">
+                                                    <input type="text" size=20 name="acity" required spellcheck="true">
+                                                    <input type="text" size=20 name="astate" required spellcheck="true">
+                                                    <input type="text" size=6 name="azip" required spellcheck="true">
+
+                                                    <br>
+                                                    <font size="2">City
+                                                        &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+                                                        &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+                                                        &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+                                                        State/Foreign Country
+                                                        &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+                                                        ZIP Code
+                                                    </font>
+                                                </div>
+                                            </div>
+                                        </div>
+
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <!--14th row-->
+                    <div class="table-row">
+                        <div class="table-cell">
+
+                        </div>
+                        <div class="table-cell">
+                            <div class="table">
+                                <div class="table-row">
+                                    <div class="table-cell">
+                                        I declare under penalty of perjury that I have examined all the information on
+                                        this form,and on any accompanying
+                                        <br> statements or forms, 17 and it is true and correct to the best to my
+                                        knowledge.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+                    <!--15th row  Signature & Relationship-->
+                    <div class="table-row">
+                        <div class="table-cell">
+                            <b>
+                                <font size="5">17)</font>
+                            </b>
+                        </div>
+                        <div class="table-cell">
+                            <div class="table">
+                                <!--row 15A-->
+                                <div class="table-row">
+                                    <div class="table-cell">
+                                        <b>YOUR SIGNATURE</b>
+                                        <br>
+                                        <input type="text" name="sign" size="30" required>
+                                    </div>
+
+                                    <div class="table-cell">
+                                        <!--To create space between-->
+                                    </div>
+
+                                    <!--row 15B-->
+                                    <div class="table-cell">
+                                        <b>
+                                            <font size="5">18)</font>
+                                        </b>
+                                    </div>
+                                    <div class="table-cell">
+                                        <b>YOUR RELATIONSHIP TO THE PERSON IN ITEM 1 IS: </b>
+                                        <BR>
+
+                                        <input type="radio" name="s1" value="Self" required>Self
+                                        <input type="radio" name="s1" value="NatAdp" required>Natural/Adoptive Parent
+                                        <input type="radio" name="s1" value="legalGua" required>Legal Guardian
+                                        <input type="radio" name="s1" value="Other" required>Other
+                                        <br>Specify
+                                        <input type="text" size=20 name="specify">
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+                <center>
+                    <button type="submit" name="submit" value="submit">Submit</button> </center>
+                <br>
+            </div>
+
+    </div>
+
+    <div style="border:1px solid; width:65%; margin-left: 20%">
+        DO NOT WRITE BELOW THIS LINE (FOR SSA USE ONLY)
+        <br>
+        NPN<input type="text" name="npn">
+        DOC<input type="text" name="doc">
+        NTI<input type="text" name="nti">
+        CAN<input type="text" name="can">
+        ITV<input type="text" name="itv">
+        PBC<input type="text" name="pbc">
+        EVI<input type="text" name="evi">
+        EVA<input type="text" name="eva">
+        EVC<input type="text" name="evc">
+        PRA<input type="text" name="pra">
+        NWR<input type="text" name="nwr">
+        DNR<input type="text" name="dnr">
+        UNIT<input type="text" name="unit">
+        <br>
+        EVIDENCE SUBMITTED<input type="text" name="evidence" size="120">
+        <br>
+        SIGNATURE AND TITLE OF EMPLOYEE(S) REVIEWING
+        EVIDENCE AND/OR CONDUCTING INTERVIEW
+        <br>
+        <input type="text" name="signature" size="90">
+        DATE <input type="text" name="date1" size="40">
+        <br>
+        DCL<input type="text" name="dcl" size="85">
+        DATE <input type="text" name="date2" size="40">
+    </div>
+    </form>
+    <br>
+    </div>
+</body>
+
+<!--Footer and Navigations-->
+<footer style="font-size: 15px">
+    <hr size=0.7px noshade>
+    Form SS-5 (08-2011) ef (08-2011) Destroy Prior Editions
+    <span style="margin-left: 25%">Page 5</span>
+    <span style="margin-left: 40%"> <a href="Page_4.html">Previous</a> &nbsp Next </span>
+</footer>
+
+</html>

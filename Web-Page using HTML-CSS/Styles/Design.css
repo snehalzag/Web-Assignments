@@ -1,0 +1,92 @@
+/* to change the font of main heading*/
+h1{
+    font-family:cursive;
+}
+
+
+/* to change the font of heading of each div tags*/
+h3{
+    color: black;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:900;
+}
+
+/* to change the font color of some content to emphasize*/
+span{
+    color:rgb(4, 180, 4);
+}
+
+/* to change default style of hyperlink*/
+a{
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    border-bottom: 1px solid black;
+    text-decoration: none;
+}
+
+/*For Navigation Bar*/
+nav{
+    width: 81%;
+    font-size: 24px;
+    font-weight: bold;
+    border-bottom: 1px solid gainsboro;
+}
+
+
+/* main margin */
+.margin{
+        margin-left: 100px;
+}
+
+/* first row*/
+.div1{
+    margin-bottom: 20px;
+    height: 300px;
+}
+
+
+.ptxt{
+    font-size: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+
+}
+
+/* to add line after heading part*/
+.line{
+    border-bottom: 1.5px solid gainsboro;
+    width: 81%;
+}
+
+/* first div of each row*/
+.box1 {
+    position: relative;
+    border: 1.5px solid gainsboro;
+    border-radius: 7px;
+    width: 22% ;
+    height: 250px;
+    font-family:Arial, Helvetica, sans-serif;
+    color: gray;
+    float: left;
+    padding: 20px;
+}
+
+/* other div of each row*/
+.box {
+    position: relative;
+    border: 1.5px solid gainsboro;
+    border-radius: 7px;
+    width: 22% ;
+    height: 250px;
+    font-family:Arial, Helvetica, sans-serif;
+    color: gray;
+    margin-left: 40px;
+    float: left;
+    padding: 20px;
+}
+
+/* bottom line of each post*/
+.btm{          
+    position: absolute;
+    bottom: 30px;             
+    font-size: 13px;
+}

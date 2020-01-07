@@ -1,0 +1,1056 @@
+[
+  {
+    "__docId__": 1,
+    "kind": "external",
+    "name": "Infinity",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Infinity",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Infinity",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 2,
+    "kind": "external",
+    "name": "NaN",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/NaN",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~NaN",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 3,
+    "kind": "external",
+    "name": "undefined",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~undefined",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 4,
+    "kind": "external",
+    "name": "null",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/null",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~null",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 5,
+    "kind": "external",
+    "name": "Object",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Object",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 6,
+    "kind": "external",
+    "name": "object",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~object",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 7,
+    "kind": "external",
+    "name": "Function",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Function",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 8,
+    "kind": "external",
+    "name": "function",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~function",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 9,
+    "kind": "external",
+    "name": "Boolean",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Boolean",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 10,
+    "kind": "external",
+    "name": "boolean",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~boolean",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 11,
+    "kind": "external",
+    "name": "Symbol",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Symbol",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 12,
+    "kind": "external",
+    "name": "Error",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Error",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Error",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 13,
+    "kind": "external",
+    "name": "EvalError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/EvalError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~EvalError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 14,
+    "kind": "external",
+    "name": "InternalError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/InternalError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~InternalError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 15,
+    "kind": "external",
+    "name": "RangeError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RangeError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~RangeError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 16,
+    "kind": "external",
+    "name": "ReferenceError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ReferenceError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~ReferenceError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 17,
+    "kind": "external",
+    "name": "SyntaxError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/SyntaxError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~SyntaxError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 18,
+    "kind": "external",
+    "name": "TypeError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypeError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~TypeError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 19,
+    "kind": "external",
+    "name": "URIError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/URIError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~URIError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 20,
+    "kind": "external",
+    "name": "Number",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Number",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 21,
+    "kind": "external",
+    "name": "number",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~number",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 22,
+    "kind": "external",
+    "name": "Date",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Date",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 23,
+    "kind": "external",
+    "name": "String",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~String",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 24,
+    "kind": "external",
+    "name": "string",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~string",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 25,
+    "kind": "external",
+    "name": "RegExp",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~RegExp",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 26,
+    "kind": "external",
+    "name": "Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 27,
+    "kind": "external",
+    "name": "Int8Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int8Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Int8Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 28,
+    "kind": "external",
+    "name": "Uint8Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint8Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Uint8Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 29,
+    "kind": "external",
+    "name": "Uint8ClampedArray",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint8ClampedArray",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Uint8ClampedArray",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 30,
+    "kind": "external",
+    "name": "Int16Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int16Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Int16Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 31,
+    "kind": "external",
+    "name": "Uint16Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint16Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Uint16Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 32,
+    "kind": "external",
+    "name": "Int32Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int32Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Int32Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 33,
+    "kind": "external",
+    "name": "Uint32Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint32Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Uint32Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 34,
+    "kind": "external",
+    "name": "Float32Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Float32Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Float32Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 35,
+    "kind": "external",
+    "name": "Float64Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Float64Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Float64Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 36,
+    "kind": "external",
+    "name": "Map",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Map",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 37,
+    "kind": "external",
+    "name": "Set",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Set",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 38,
+    "kind": "external",
+    "name": "WeakMap",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/WeakMap",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~WeakMap",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 39,
+    "kind": "external",
+    "name": "WeakSet",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/WeakSet",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~WeakSet",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 40,
+    "kind": "external",
+    "name": "ArrayBuffer",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ArrayBuffer",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~ArrayBuffer",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 41,
+    "kind": "external",
+    "name": "DataView",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/DataView",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~DataView",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 42,
+    "kind": "external",
+    "name": "JSON",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~JSON",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 43,
+    "kind": "external",
+    "name": "Promise",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Promise",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 44,
+    "kind": "external",
+    "name": "Generator",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Generator",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Generator",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 45,
+    "kind": "external",
+    "name": "GeneratorFunction",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/GeneratorFunction",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~GeneratorFunction",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 46,
+    "kind": "external",
+    "name": "Reflect",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Reflect",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Reflect",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 47,
+    "kind": "external",
+    "name": "Proxy",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Proxy",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Proxy",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 48,
+    "kind": "file",
+    "name": "src/BinarySearch.js",
+    "content": "//Binary Search function  \r\n\r\n\r\n/**\r\n * \r\n * @param {number} arr      The array\r\n * @param {number} value    The value to be searched\r\n * @function binary_search  This function does binary search on the array  \r\n */\r\n\r\nfunction binary_search(arr, value)\r\n{\r\n  let first=0;\r\n  let last=arr.length-1;\r\n  let mid= 0;\r\n   \r\n  while(first<=last)\r\n  {\r\n    /**\r\n     * @type  {number} mid    Fetching  the middle number of array\r\n     */\r\n    mid=Math.floor((first+last)/2);\r\n\r\n    if(arr[mid]==value)\r\n    {\r\n      /**\r\n       * @return {number}     Return middle number if value is equal to middle number\r\n       */\r\n      return arr[mid];\r\n    }\r\n    else if(value < arr[mid])\r\n    {\r\n      /**\r\n       * @description search in first half of array\r\n       */\r\n      last= arr[mid] - 1;\r\n    }\r\n    else{\r\n      /**\r\n       * @description search in second half of array\r\n       */\r\n      first= arr[mid]+1;\r\n    }\r\n  }\r\n  return -1;\r\n\r\n}\r\n\r\n/**\r\n * @type  {number} array   Array to be passed\r\n * @type  {number} input   inputed value to be searched\r\n */\r\nlet array =[1,5,45,8,63,20,27,91,31,5,2];\r\nlet input=20;\r\n\r\n\r\n/**\r\n * @type {number}  Sorted Array\r\n */\r\nlet sortedArray = array.sort(function(a,b) {return a-b});\r\nconsole.log(sortedArray);\r\n\r\n\r\n/**\r\n * @type {number} result  To get the returned value from function\r\n */\r\nlet result= binary_search(sortedArray, input);\r\nif(result == -1)\r\n{\r\n  console.log(input+ \" Not Found in Array!\");\r\n}\r\nelse\r\n{\r\n  console.log(result+ \" Found in Array!\");\r\n}\r\n",
+    "static": true,
+    "longname": "C:/Users/sneh/Desktop/Web Design & UX/assignment-5/src/BinarySearch.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 49,
+    "kind": "function",
+    "name": "binary_search",
+    "memberof": "src/BinarySearch.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/BinarySearch.js~binary_search",
+    "access": "public",
+    "export": false,
+    "importPath": "assignment-5/src/BinarySearch.js",
+    "importStyle": null,
+    "description": "",
+    "lineNumber": 11,
+    "unknown": [
+      {
+        "tagName": "@function",
+        "tagValue": "binary_search  This function does binary search on the array  "
+      }
+    ],
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "number"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "arr",
+        "description": "The array"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "number"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "value",
+        "description": "The value to be searched"
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 50,
+    "kind": "variable",
+    "name": "array",
+    "memberof": "src/BinarySearch.js",
+    "static": true,
+    "longname": "src/BinarySearch.js~array",
+    "access": "public",
+    "export": false,
+    "importPath": "assignment-5/src/BinarySearch.js",
+    "importStyle": null,
+    "description": "",
+    "lineNumber": 53,
+    "type": {
+      "nullable": null,
+      "types": [
+        "number"
+      ],
+      "spread": false,
+      "description": null
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 51,
+    "kind": "variable",
+    "name": "input",
+    "memberof": "src/BinarySearch.js",
+    "static": true,
+    "longname": "src/BinarySearch.js~input",
+    "access": "public",
+    "export": false,
+    "importPath": "assignment-5/src/BinarySearch.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 54,
+    "undocument": true,
+    "type": {
+      "types": [
+        "number"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 52,
+    "kind": "variable",
+    "name": "sortedArray",
+    "memberof": "src/BinarySearch.js",
+    "static": true,
+    "longname": "src/BinarySearch.js~sortedArray",
+    "access": "public",
+    "export": false,
+    "importPath": "assignment-5/src/BinarySearch.js",
+    "importStyle": null,
+    "description": "",
+    "lineNumber": 60,
+    "type": {
+      "nullable": null,
+      "types": [
+        "number"
+      ],
+      "spread": false,
+      "description": null
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 53,
+    "kind": "variable",
+    "name": "result",
+    "memberof": "src/BinarySearch.js",
+    "static": true,
+    "longname": "src/BinarySearch.js~result",
+    "access": "public",
+    "export": false,
+    "importPath": "assignment-5/src/BinarySearch.js",
+    "importStyle": null,
+    "description": "",
+    "lineNumber": 67,
+    "type": {
+      "nullable": null,
+      "types": [
+        "number"
+      ],
+      "spread": false,
+      "description": null
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 54,
+    "kind": "file",
+    "name": "src/Quick Sort.js",
+    "content": "//Quick Sort\r\n\r\n/**\r\n * \r\n * @param {number} arr          Array to be sorted \r\n * @param {number} leftIndx     Left Index\r\n * @param {*} rightIndx         Right Index\r\n * @function swap               To swap two numbers\r\n */\r\nfunction swap(arr, leftIndx, rightIndx){\r\n    var temp = arr[leftIndx];\r\n    arr[leftIndx] = arr[rightIndx];\r\n    arr[rightIndx] = temp;\r\n}\r\n\r\n/**\r\n * \r\n * @param {number} arr     Array to be sorted \r\n * @param {number} left    Left Pointer\r\n * @param {*} right        Right Pointer\r\n * @function part          To divide array into parts based on pivot element \r\n */\r\nfunction part(arr, left, right) {\r\n    var pivot   = arr[Math.floor((right + left) / 2)],   i = left,    j = right;     //(middle element , left pointer  , right pointer)\r\n        console.log(\"Pivot=\"+pivot)\r\n    /**\r\n     * @while   For Array Partition till all left element are smaller than right elements\r\n     */\r\n    while (i <= j) {\r\n        while (arr[i] < pivot) {\r\n            i++;\r\n        }\r\n        while (arr[j] > pivot) {\r\n            j--;\r\n        }\r\n        if (i <= j) {\r\n            /**\r\n             * @function swap       Calling swap function to swap the elements to correct the order\r\n             */\r\n            swap(arr, i, j); \r\n            i++;\r\n            j--;\r\n        }\r\n    }\r\n    return i;\r\n}\r\n\r\n/**\r\n * \r\n * @param {number} arr     Array to be sorted\r\n * @param {*} left         Left index\r\n * @param {*} right        Right Index\r\n * @function quickSort     A recursive function To sort the array\r\n */\r\nfunction quickSort(arr, left, right) {\r\n    var index;\r\n    if (arr.length > 1) \r\n    {\r\n        /**\r\n         * @type {number} index     Index returned from part function\r\n         */\r\n        index = part(arr, left, right);\r\n        console.log(arr);\r\n\r\n        if (left < index - 1) { \r\n            quickSort(arr, left, index - 1);\r\n        }\r\n        if (index < right) {\r\n            quickSort(arr, index, right);\r\n        }\r\n    }\r\n    return arr;\r\n}\r\n\r\n\r\nvar arr = [5,3,7,6,2,9];\r\nconsole.log(arr);\r\n/**\r\n * @description     Calling function quickSort\r\n */\r\nvar sortedArray = quickSort(arr, 0, arr.length - 1);\r\nconsole.log(\"Sorted Array is \"+sortedArray);",
+    "static": true,
+    "longname": "C:/Users/sneh/Desktop/Web Design & UX/assignment-5/src/Quick Sort.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 55,
+    "kind": "function",
+    "name": "swap",
+    "memberof": "src/Quick Sort.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/Quick Sort.js~swap",
+    "access": "public",
+    "export": false,
+    "importPath": "assignment-5/src/Quick Sort.js",
+    "importStyle": null,
+    "description": "",
+    "lineNumber": 10,
+    "unknown": [
+      {
+        "tagName": "@function",
+        "tagValue": "swap               To swap two numbers"
+      }
+    ],
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "number"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "arr",
+        "description": "Array to be sorted"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "number"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "leftIndx",
+        "description": "Left Index"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "*"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "rightIndx",
+        "description": "Right Index"
+      }
+    ],
+    "return": null,
+    "ignore": true
+  },
+  {
+    "__docId__": 56,
+    "kind": "function",
+    "name": "part",
+    "memberof": "src/Quick Sort.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/Quick Sort.js~part",
+    "access": "public",
+    "export": false,
+    "importPath": "assignment-5/src/Quick Sort.js",
+    "importStyle": null,
+    "description": "",
+    "lineNumber": 23,
+    "unknown": [
+      {
+        "tagName": "@function",
+        "tagValue": "part          To divide array into parts based on pivot element "
+      }
+    ],
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "number"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "arr",
+        "description": "Array to be sorted"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "number"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "left",
+        "description": "Left Pointer"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "*"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "right",
+        "description": "Right Pointer"
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 57,
+    "kind": "function",
+    "name": "quickSort",
+    "memberof": "src/Quick Sort.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/Quick Sort.js~quickSort",
+    "access": "public",
+    "export": false,
+    "importPath": "assignment-5/src/Quick Sort.js",
+    "importStyle": null,
+    "description": "",
+    "lineNumber": 55,
+    "unknown": [
+      {
+        "tagName": "@function",
+        "tagValue": "quickSort     A recursive function To sort the array"
+      }
+    ],
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "number"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "arr",
+        "description": "Array to be sorted"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "*"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "left",
+        "description": "Left index"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "*"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "right",
+        "description": "Right Index"
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 58,
+    "kind": "variable",
+    "name": "arr",
+    "memberof": "src/Quick Sort.js",
+    "static": true,
+    "longname": "src/Quick Sort.js~arr",
+    "access": "public",
+    "export": false,
+    "importPath": "assignment-5/src/Quick Sort.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 76,
+    "undocument": true,
+    "type": {
+      "types": [
+        "number[]"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 59,
+    "kind": "variable",
+    "name": "sortedArray",
+    "memberof": "src/Quick Sort.js",
+    "static": true,
+    "longname": "src/Quick Sort.js~sortedArray",
+    "access": "public",
+    "export": false,
+    "importPath": "assignment-5/src/Quick Sort.js",
+    "importStyle": null,
+    "description": "",
+    "lineNumber": 81,
+    "unknown": [
+      {
+        "tagName": "@description",
+        "tagValue": "    Calling function quickSort"
+      }
+    ],
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 60,
+    "kind": "file",
+    "name": "src/ReverseString.js",
+    "content": "//String Reverse\r\n\r\n\r\n/**\r\n * \r\n * @param {String} str      The String to be reversed \r\n */\r\nfunction reverseString(str) {\r\n    /**\r\n     * @type {String} spiltStr       String with seperated letters using spilt() method\r\n     */\r\n    var spiltStr = str.split(\"\");  \r\n\r\n    /** \r\n     * @type {String} reverseStr     Reveresed String using reverse() method\r\n     */\r\n    var reverseStr = spiltStr.reverse(); \r\n   \r\n    /**\r\n     * @type {String} joinStr        Join all letters using join() method\r\n     */\r\n    var joinStr = reverseStr.join(\"\"); \r\n        \r\n    /**\r\n     * @return {String}             Returns reversed string\r\n     */\r\n    return joinStr; \r\n}\r\n \r\n\r\n/**\r\n * @type {String}               Variables to pass String to be reversed\r\n */\r\nvar s = \"Northeastern University\"\r\nvar r = \"ABCDEFGHIJKLMNOPQRSTUVWXYZ\"\r\n\r\nconsole.log(s); \r\nconsole.log(\"Reversed Output: \"+reverseString(s));\r\n\r\nconsole.log(r); \r\nconsole.log(\"Reversed Output: \"+reverseString(r));\r\n",
+    "static": true,
+    "longname": "C:/Users/sneh/Desktop/Web Design & UX/assignment-5/src/ReverseString.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 61,
+    "kind": "function",
+    "name": "reverseString",
+    "memberof": "src/ReverseString.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/ReverseString.js~reverseString",
+    "access": "public",
+    "export": false,
+    "importPath": "assignment-5/src/ReverseString.js",
+    "importStyle": null,
+    "description": "",
+    "lineNumber": 8,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "String"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "str",
+        "description": "The String to be reversed"
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 62,
+    "kind": "variable",
+    "name": "s",
+    "memberof": "src/ReverseString.js",
+    "static": true,
+    "longname": "src/ReverseString.js~s",
+    "access": "public",
+    "export": false,
+    "importPath": "assignment-5/src/ReverseString.js",
+    "importStyle": null,
+    "description": "",
+    "lineNumber": 34,
+    "type": {
+      "nullable": null,
+      "types": [
+        "String"
+      ],
+      "spread": false,
+      "description": null
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 63,
+    "kind": "variable",
+    "name": "r",
+    "memberof": "src/ReverseString.js",
+    "static": true,
+    "longname": "src/ReverseString.js~r",
+    "access": "public",
+    "export": false,
+    "importPath": "assignment-5/src/ReverseString.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 35,
+    "undocument": true,
+    "type": {
+      "types": [
+        "string"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "kind": "index",
+    "content": "",
+    "longname": "C:\\Users\\sneh\\Desktop\\Web Design & UX\\assignment-5\\README.md",
+    "name": "./README.md",
+    "static": true,
+    "access": "public"
+  },
+  {
+    "kind": "packageJSON",
+    "content": "{\n  \"name\": \"assignment-5\",\n  \"version\": \"1.0.0\",\n  \"description\": \"\",\n  \"main\": \"BinarySearch.js\",\n  \"dependencies\": {\n    \"esdoc\": \"^1.1.0\",\n    \"esdoc-standard-plugin\": \"^1.0.0\"\n  },\n  \"devDependencies\": {},\n  \"scripts\": {\n    \"test\": \"echo \\\"Error: no test specified\\\" && exit 1\",\n    \"esdoc\": \"node_modules/.bin/esdoc -c esdoc.json\"\n  },\n  \"repository\": {\n    \"type\": \"git\",\n    \"url\": \"git+https://github.com/neu-mis-info6150-fall-2019/assignment-5-snehalzag.git\"\n  },\n  \"author\": \"\",\n  \"license\": \"ISC\",\n  \"bugs\": {\n    \"url\": \"https://github.com/neu-mis-info6150-fall-2019/assignment-5-snehalzag/issues\"\n  },\n  \"homepage\": \"https://github.com/neu-mis-info6150-fall-2019/assignment-5-snehalzag#readme\"\n}\n",
+    "longname": "C:\\Users\\sneh\\Desktop\\Web Design & UX\\assignment-5\\package.json",
+    "name": "package.json",
+    "static": true,
+    "access": "public"
+  }
+]

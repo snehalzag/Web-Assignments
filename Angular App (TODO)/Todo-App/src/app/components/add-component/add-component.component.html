@@ -1,0 +1,32 @@
+<!--Header-->
+<h1>
+    Add Task
+</h1>
+
+<!--Input fields to get data from user to add a new todo-->
+<div class="div1">
+
+    <!--Title-->
+    Title:&nbsp; &nbsp; &nbsp;&nbsp; <input type="text" class="inputText" placeholder="What needs to be done?"
+        [(ngModel)]="todo.title">
+    <br><br>
+
+    <!--Description-->
+    Description:<input type="text" class="inputText" placeholder="Details" [(ngModel)]="todo.description">
+    <br><br>
+
+    <!--Due Date-->
+    Due Date:&nbsp; <input type="date" class="inputText" placeholder="Due Date" [(ngModel)]="todo.date">
+    <br><br>
+
+    <!--Time-->
+    Time:&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;<input type="time" class="inputText" placeholder="Time?"
+        [(ngModel)]="todo.time">
+    <br><br>
+
+    <!--Button to add item-->
+    <button class="addbtn" (click)="addTodo()">
+        ADD
+    </button>
+    <br> <br> <br>
+</div>
