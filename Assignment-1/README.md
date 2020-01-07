@@ -1,4 +1,4 @@
-# assignment-1-snehalzag
+# Application form using HTML
 assignment-1-snehalzag created by GitHub Classroom
 
 Creating an Application for generating Social Security Numnber using HTML.
