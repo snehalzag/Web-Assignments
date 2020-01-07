@@ -1,0 +1,621 @@
+@import "mixins";        //to use mixins 
+
+.divHead {
+    width: 70em;
+    position: absolute;
+    margin-right: 200px;
+    margin-left: 200px;
+}
+
+.divHead2 {
+    width: 70em;
+    position: sticky;
+    top: 0px;
+    margin-right: 200px;
+    margin-left: 200px;
+}
+
+.cleanNowFormat{
+    color: $brand-color;
+    font-weight: bold;
+    float: left;
+}
+
+.CleanNow{
+    @extend .cleanNowFormat;    //use of inheritance
+    font-size: 32px;
+    
+}
+
+.mvleft{
+    float: left;
+}
+
+
+.mvright{
+    float: right;
+}
+
+.navHead{
+    float: right;
+    margin-top: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+ul li{
+    list-style: none;
+    display: inline;
+    margin-right: 25px;
+}
+
+.Img{
+    background: linear-gradient(0.25turn, rgba(13, 95, 95, 0.8), rgba(223, 245, 245, 0.5)), url("images/Img1.jpg");
+    width: 100%;
+    height: 650px;
+}
+
+
+.requestShape{
+    @include cynShape;
+    @include linkShape();
+}
+
+.touchShape{
+    @include cynShape;     //use of mixins
+    width: 150px;
+    font-size: 16px;
+    color: $brand-color;
+    background-color: white;
+    margin-left: 20%;
+}
+
+.divTxt{
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    width: 30%;
+    margin-left: 20%;
+    margin-bottom: 0px;
+    
+}
+
+.smallTxt{
+    color: white;
+    font-size: 15px;
+    width: 30%;
+    margin-left: 20%;
+   
+}
+
+//Third row
+
+.row3{
+    height: auto;
+    width: 1000px;
+    float: center;
+    margin-left: 18%;
+    
+}
+
+.box{
+    display: inline-block;
+    text-align: center;
+    padding: 20px;
+    margin-right: 60px;
+    width: 200px;
+    height: 300px;
+}
+
+.rowP{
+    font-size: 30px;
+    color: $brand-color;
+    margin-left: 40%;
+}
+
+.row3circle{
+        width: 150px;
+        height: 150px;
+        background:$brand-color;
+        border-radius: 50%;
+        display: inline-block;
+        margin-bottom: 0px; 
+}
+
+
+.row3square{
+    @include square();
+    margin-top: 47px;
+   
+}
+
+.Qtn{
+    font-size: 45px;
+    font-weight: bold;
+    color: white;
+    margin-right: 3px;
+    text-align: center;
+    display: inline-block;
+}
+
+    
+.mTxt{
+    @include mediumTxt();
+}
+
+.sTxt{
+    font-size: 15px;
+    color: $smalltxtClr;
+
+}
+
+//Forth Row
+.row4{
+    background-color: rgb(248, 247, 247);
+}
+
+.row4grid{
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px;
+    grid-template-rows: 10px 170px 100px;
+    grid-gap: 20px;
+    padding: 10px;
+    margin-left: 17%;
+}
+
+.row4img1{
+    background: url("images/Residencial_Img.jpg");
+    width: 100%;
+    
+}
+
+.row4img2{
+    background: url("images/commercial_Img.jpg");
+    width: 100%;
+    
+}
+
+.row4img3{
+    background: url("images/office_Img.jpg");
+    width: 100%;
+    
+}
+
+.row4img4{
+    background: url("images/seasonal_Img.jpg");
+    width: 100%;
+    
+}
+
+.moreShape{
+    @include linkShape();   ///use of mixins
+    margin-left: 45%
+}
+
+
+//Fith Row
+
+.rw5{
+    width: 100%;
+    height: 750px;
+}
+
+.row5{
+    position: absolute;
+    margin-top: 70px;
+    margin-left: 20%;
+    margin-bottom: 70px;
+    width: 920px;
+    height: 600px;
+    
+
+}
+
+.row5 > div{
+    float: left;
+    }
+
+.row5img{
+    background: url("images/row5_img.png");
+    width: 50%;
+    height: 100%;
+}
+
+.row5content{
+    width: 48%;
+    height: auto;
+
+}
+
+.bcom{
+    font-size: 20px;
+    color: $smalltxtClr;
+    margin: 0px;
+}
+
+.abtCom{
+    font-size: 30px;
+    color: $brand-color;
+    margin: 0px;
+}
+
+.item1 { grid-area: symbol1; 
+        width: 60px;
+        height: 60px;
+        margin-top: 0px;}
+
+.item2 { grid-area: points; 
+        width: 350px;
+        @include mediumTxt();}
+
+.item3 { grid-area: desc; 
+        font-size: 14px;
+        color: $smalltxtClr;}
+
+
+
+.grid-container {
+    display: grid;
+    grid-template-areas:
+      'symbol1 points points'
+      'symbol1 desc desc';
+    padding: 5px;
+    
+  }
+
+  .grid-container > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 2px;
+    
+  }
+
+  .row5square{
+    width: 50px;
+    height: 50px;
+    background: white;
+    border: 5px solid $brand-color;
+    border-radius: 6px;
+    text-align: center;
+    display: inline-block;
+      margin-top: 0px;
+  }
+
+  .Qtn5{
+    font-size: 45px;
+    font-weight: bolder;
+    color: $brand-color;
+    margin-right: 3px;
+    text-align: center;
+    display: inline-block;
+}
+
+.moreShape5{
+    @include linkShape();
+}
+
+//sixth row
+.row6{
+    display: inline-block;
+    width: 100%;
+    height: 200px;
+    background-color: $brand-color;
+    text-align: center;
+}
+
+.row6P{
+    font-size: 30px;
+    color: white;
+    margin-right: 20px;
+}
+
+//seventh row
+.staff1img{
+    background: url("images/staff1.jpg");
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    
+}
+
+.staff2img{
+    background: url("images/staff2.jpg");
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    
+}
+
+.staff3img{
+    background: url("images/staff3.jpg");
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    
+}
+
+
+//eighth row
+.row8{
+    background-color: rgb(248, 247, 247);
+    height: 600px;;
+}
+
+.row8grid{
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px;
+    grid-template-rows: 60px 40px 250px 30px;
+    grid-gap: 0px;
+    padding: 10px;
+    margin-left: 20%;
+}
+
+.row8grid > div{
+    background-color: white;
+    border-right: 20px solid  rgb(248, 247, 247); 
+    &:nth-last-child(4){
+    background-color: $brand-color;}
+        &:nth-last-child(3){
+        background-color: $brand-color;}
+            &:nth-last-child(2){
+            background-color: $brand-color;}
+                    &:nth-last-child(1){
+                     background-color: $brand-color;}     // to avoid this format for last four childs
+}
+
+.row8square{
+    width: 20px;
+    height: 20px;
+    background: white;
+    border: 2px solid $brand-color;
+    border-radius: 3px;
+    text-align: center;
+    display: inline-block;
+      margin-top: 20px;
+  }
+
+  .Qtn8{
+    font-size: 20px;
+    font-weight: bolder;
+    color: $brand-color;
+    margin-right: 3px;
+    text-align: center;
+    display: inline-block;
+}
+
+.price{
+    text-align: center;
+    font-size: 30px;
+    color: $smalltxtClr;
+    font-weight: bold;
+    margin: 0px;
+}
+
+.buy{
+    text-align: center;
+    font-weight: bold;
+    color: white;
+}
+
+//Nineth Row
+
+.row9grid{
+    display: grid;
+    grid-template-columns: 250px 250px 250px ;
+    grid-template-rows: 200px 10px 40px 70px 60px;
+    grid-gap: 10px;
+    padding: 10px;
+    margin-left: 20%;
+    text-align: left;
+}
+
+.row9img1{
+    background: url("images/row91.png");
+    width: 100%;
+    
+}
+
+.row9img2{
+    background: url("images/row92.png");
+    width: 100%;
+    
+}
+
+.row9img3{
+    background: url("images/row93.png");
+    width: 100%;
+    
+}
+
+.row9circle{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: gray;
+    margin-right: 20px;
+}
+
+
+.last9{
+    display: inline-block;
+   
+}
+
+//Tenth Row
+.row10{
+    background-color: rgb(248, 247, 247);
+    height: 500px;
+}
+
+.testimg{
+    background: url("images/testimg.png");
+    margin-left: 38%;
+    width: 200px;
+    height: 187px;
+}
+
+.founder{
+    width: 300px;
+    height: 30px;
+    background-color: $brand-color;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 35%;
+}
+
+
+//eleventh row
+
+.row11{
+    width: 100%;
+height: 600px;
+}
+
+.row11grid{
+    display: grid;
+    grid-template-columns: 400px 400px 400px 400px;
+    grid-template-rows: 300px ;
+    padding: 10px;
+    text-align: left;
+}
+
+.row11img1{
+    background: url("images/row111.png");
+    width: 100%;
+    
+}
+
+.row11img2{
+    background: url("images/row112.jpg");
+    width: 100%;
+    
+}
+.row11img3{
+    background: url("images/row113.png");
+    width: 100%;
+    
+}
+.row11img4{
+    background: url("images/row114.png");
+    width: 100%;
+    
+}
+
+
+//12th row
+
+.Img12{
+    background: linear-gradient(0.25turn, rgba(99, 96, 98, 0.6), rgba(214, 208, 214, 0.6)), url("images/row12.jpg");
+    width: 100%;
+    height: 650px;
+}
+
+.row12grid{
+    display: grid;
+    grid-template-columns: 200px ;
+    background-color: white;
+    grid-template-rows: 30px 30px 30px 30px 90px ;
+    grid-gap: 30px;
+    padding: 10px;
+    margin-left: 60%;
+    margin-top: 20px;
+    width: 300px;
+    height: 420px;
+    
+}
+
+.row12grid > div {
+    background-color: gainsboro;
+    color: gray;
+    &:last-child{
+        background-color: $brand-color;
+        color: white;
+        margin-top: 5px;
+        font-weight: bolder;    }
+        
+}
+
+div > input{
+    background-color: gainsboro;
+    color: gray;
+
+}
+
+
+.r121{
+    width: 300px;
+    height: 40px;
+}
+
+.r122{
+    width: 300px;
+    height: 40px;
+}
+
+.r123{
+    width: 300px;
+    height: 40px;
+}
+
+.r124{
+    width: 300px;
+    height: 90px;
+}
+
+.r125{
+    width: 300px;
+    height: 40px;
+    background-color: $brand-color;
+    color: white;
+}
+
+.quote{
+    font-size: 18px;
+    color: $brand-color;
+    margin-left: 22%;
+    font-weight: bolder;
+}
+
+
+//Last row (13th)
+.row13{
+    background-color: $bgcolor;
+}
+
+.row13grid{
+    display: grid;
+    grid-template-columns: 250px 150px 150px 150px;
+    grid-template-rows: 30px 150px;
+    grid-gap: 30px;
+    padding: 10px;
+    margin-left: 20%;
+    width: 800px;
+    height: 300px;
+    
+}
+
+.CleanNow2{
+    @extend .cleanNowFormat;    //use of inheritance
+    font-size: 27px;
+}
+
+.row131{
+    font-size: 20px;
+    color: gray;
+    margin-top: 30px;
+    font-weight: bold;
+}
+
+.qtnimg{
+    background-image: url("images/Qstn.png");
+    width: 88px;
+    height: 20px;
+}
