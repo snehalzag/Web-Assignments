@@ -1,0 +1,30 @@
+/* Styling to header*/
+h1{
+  text-align: center;
+}
+
+
+/* Styling to table cell*/
+td {
+    border: 1px solid black;
+    padding: 5px;
+  }
+ 
+/* Styling to table header*/  
+th {
+    font-weight: bold;
+    border: 1px solid black;
+    padding: 5px;
+    background-color: antiquewhite;
+  }
+
+/* Styling to button*/  
+#fetchBtn {
+    background-color: antiquewhite;
+    font-size: 16px;
+}
+
+/* Styling to inputText*/  
+#inputText{
+  margin-left: 42%;
+}
