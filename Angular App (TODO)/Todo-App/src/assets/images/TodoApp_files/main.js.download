@@ -1,0 +1,749 @@
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["main"],{
+
+/***/ "./$$_lazy_route_resource lazy recursive":
+/*!******************************************************!*\
+  !*** ./$$_lazy_route_resource lazy namespace object ***!
+  \******************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+function webpackEmptyAsyncContext(req) {
+	// Here Promise.resolve().then() is used instead of new Promise() to prevent
+	// uncaught exception popping up in devtools
+	return Promise.resolve().then(function() {
+		var e = new Error("Cannot find module '" + req + "'");
+		e.code = 'MODULE_NOT_FOUND';
+		throw e;
+	});
+}
+webpackEmptyAsyncContext.keys = function() { return []; };
+webpackEmptyAsyncContext.resolve = webpackEmptyAsyncContext;
+module.exports = webpackEmptyAsyncContext;
+webpackEmptyAsyncContext.id = "./$$_lazy_route_resource lazy recursive";
+
+/***/ }),
+
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/app.component.html":
+/*!**************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/app.component.html ***!
+  \**************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"container\">\n    <img src=\"assets/images/Notepad_icon.svg.png\">\n  <todo-list></todo-list>\n</div>");
+
+/***/ }),
+
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/components/add-component/add-component.component.html":
+/*!*************************************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/components/add-component/add-component.component.html ***!
+  \*************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("<p>add-component works!</p>\n<div class=\"div1\">\n\n        Title:&nbsp; &nbsp; &nbsp;&nbsp; <input type=\"text\" class=\"inputText\" placeholder=\"What needs to be done?\"\n            [(ngModel)]=\"todo.title\">\n        <br><br>\n        Description:<input type=\"text\" class=\"inputText\" placeholder=\"Details\" [(ngModel)]=\"todo.description\">\n        <br><br>\n        Due Date:&nbsp; <input type=\"date\" class=\"inputText\" placeholder=\"Due Date\" [(ngModel)]=\"todo.date\">\n        <br><br>\n        Time:&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;<input type=\"time\" class=\"inputText\" placeholder=\"Time?\"\n            [(ngModel)]=\"todo.time\">\n        <br><br>\n</div>");
+
+/***/ }),
+
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/components/todo-list/todo-list.component.html":
+/*!*****************************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/components/todo-list/todo-list.component.html ***!
+  \*****************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("<!--<p>todo-list works!</p>-->\n<div class=\"innerContainer\">\n\n    <h1>\n        To Do Tasks\n    </h1>\n     <div class=\"div1\">\n\n        <!--Title:&nbsp; &nbsp; &nbsp;&nbsp; <input type=\"text\" class=\"inputText\" placeholder=\"What needs to be done?\"\n            [(ngModel)]=\"todo.title\">\n        <br><br>\n        Description:<input type=\"text\" class=\"inputText\" placeholder=\"Details\" [(ngModel)]=\"todo.description\">\n        <br><br>\n        Due Date:&nbsp; <input type=\"date\" class=\"inputText\" placeholder=\"Due Date\" [(ngModel)]=\"todo.date\">\n        <br><br>\n        Time:&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;<input type=\"time\" class=\"inputText\" placeholder=\"Time?\"\n            [(ngModel)]=\"todo.time\">\n        <br><br> -->\n\n        <!-- <input type=\"button\" class=\"addbtn\" value=\"Add Task\" (click)=\"addTodo()\"> \n        routerLinkActive=\"router-link-active\"-->\n        \n        <button class=\"addbtn\">\n                <a href=\"#\" routerLink=\"/add\" >Add Task</a>\n        </button> \n\n        <br> <br> <br>\n    </div>\n    <h1> List of ToDo</h1>\n    <div class=\"todoItem\" *ngFor=\"let todo of todos\">\n\n        <div class=\"div-left\">\n            <span *ngIf=\"!todo.completed; else checkedTodo\">\n                <input type=\"checkbox\" class=\"chkbx\" name=\"check\" (change)=\"status(todo)\">\n            </span>\n\n            <ng-template #checkedTodo>\n                <input type=\"checkbox\" class=\"chkbx\" name=\"check\" checked (change)=\"status(todo)\">\n            </ng-template>\n\n            <div class=\"todotext\">\n                {{ todo.title }} <br>\n            </div>\n\n        </div>\n        <div class=\"div-right\">\n            <input type=\"button\" class=\"viewbtn\" (click)=\"viewTodo(todo)\"> &nbsp;\n            <!--<input type=\"button\" class=\"editbtn\" (click)=\"editTodo(todo.id)\">&nbsp;-->\n            <input type=\"button\" class=\"deletebtn\" (click)=\"deleteTodo(todo)\">\n            <br>\n        </div>\n        <br>\n        <div *ngIf=\"!todo.view; else editingTodo\"> </div>\n        <ng-template #editingTodo>\n            <!--<input type=\"text\" class=\"todo-item-view\"  value= {{todo.description}} autofocus>-->\n            <div class=\"todo-item-view\">\n\n                ID: {{todo.id}} <br> \n                Title: {{todo.title}} <br>\n                Description: {{todo.description}} <br>\n                Completed:{{todo.completed}} <br>\n                Date:{{todo.date}} <br>\n                Time:{{todo.time}} <br>\n\n            </div>\n        </ng-template>\n    </div>\n\n</div>");
+
+/***/ }),
+
+/***/ "./node_modules/tslib/tslib.es6.js":
+/*!*****************************************!*\
+  !*** ./node_modules/tslib/tslib.es6.js ***!
+  \*****************************************/
+/*! exports provided: __extends, __assign, __rest, __decorate, __param, __metadata, __awaiter, __generator, __exportStar, __values, __read, __spread, __spreadArrays, __await, __asyncGenerator, __asyncDelegator, __asyncValues, __makeTemplateObject, __importStar, __importDefault */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "__extends", function() { return __extends; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "__assign", function() { return __assign; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "__rest", function() { return __rest; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "__decorate", function() { return __decorate; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "__param", function() { return __param; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "__metadata", function() { return __metadata; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "__awaiter", function() { return __awaiter; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "__generator", function() { return __generator; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "__exportStar", function() { return __exportStar; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "__values", function() { return __values; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "__read", function() { return __read; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "__spread", function() { return __spread; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "__spreadArrays", function() { return __spreadArrays; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "__await", function() { return __await; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "__asyncGenerator", function() { return __asyncGenerator; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "__asyncDelegator", function() { return __asyncDelegator; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "__asyncValues", function() { return __asyncValues; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "__makeTemplateObject", function() { return __makeTemplateObject; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "__importStar", function() { return __importStar; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "__importDefault", function() { return __importDefault; });
+/*! *****************************************************************************
+Copyright (c) Microsoft Corporation. All rights reserved.
+Licensed under the Apache License, Version 2.0 (the "License"); you may not use
+this file except in compliance with the License. You may obtain a copy of the
+License at http://www.apache.org/licenses/LICENSE-2.0
+
+THIS CODE IS PROVIDED ON AN *AS IS* BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, EITHER EXPRESS OR IMPLIED, INCLUDING WITHOUT LIMITATION ANY IMPLIED
+WARRANTIES OR CONDITIONS OF TITLE, FITNESS FOR A PARTICULAR PURPOSE,
+MERCHANTABLITY OR NON-INFRINGEMENT.
+
+See the Apache Version 2.0 License for specific language governing permissions
+and limitations under the License.
+***************************************************************************** */
+/* global Reflect, Promise */
+
+var extendStatics = function(d, b) {
+    extendStatics = Object.setPrototypeOf ||
+        ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
+        function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
+    return extendStatics(d, b);
+};
+
+function __extends(d, b) {
+    extendStatics(d, b);
+    function __() { this.constructor = d; }
+    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+}
+
+var __assign = function() {
+    __assign = Object.assign || function __assign(t) {
+        for (var s, i = 1, n = arguments.length; i < n; i++) {
+            s = arguments[i];
+            for (var p in s) if (Object.prototype.hasOwnProperty.call(s, p)) t[p] = s[p];
+        }
+        return t;
+    }
+    return __assign.apply(this, arguments);
+}
+
+function __rest(s, e) {
+    var t = {};
+    for (var p in s) if (Object.prototype.hasOwnProperty.call(s, p) && e.indexOf(p) < 0)
+        t[p] = s[p];
+    if (s != null && typeof Object.getOwnPropertySymbols === "function")
+        for (var i = 0, p = Object.getOwnPropertySymbols(s); i < p.length; i++) {
+            if (e.indexOf(p[i]) < 0 && Object.prototype.propertyIsEnumerable.call(s, p[i]))
+                t[p[i]] = s[p[i]];
+        }
+    return t;
+}
+
+function __decorate(decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+}
+
+function __param(paramIndex, decorator) {
+    return function (target, key) { decorator(target, key, paramIndex); }
+}
+
+function __metadata(metadataKey, metadataValue) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(metadataKey, metadataValue);
+}
+
+function __awaiter(thisArg, _arguments, P, generator) {
+    return new (P || (P = Promise))(function (resolve, reject) {
+        function fulfilled(value) { try { step(generator.next(value)); } catch (e) { reject(e); } }
+        function rejected(value) { try { step(generator["throw"](value)); } catch (e) { reject(e); } }
+        function step(result) { result.done ? resolve(result.value) : new P(function (resolve) { resolve(result.value); }).then(fulfilled, rejected); }
+        step((generator = generator.apply(thisArg, _arguments || [])).next());
+    });
+}
+
+function __generator(thisArg, body) {
+    var _ = { label: 0, sent: function() { if (t[0] & 1) throw t[1]; return t[1]; }, trys: [], ops: [] }, f, y, t, g;
+    return g = { next: verb(0), "throw": verb(1), "return": verb(2) }, typeof Symbol === "function" && (g[Symbol.iterator] = function() { return this; }), g;
+    function verb(n) { return function (v) { return step([n, v]); }; }
+    function step(op) {
+        if (f) throw new TypeError("Generator is already executing.");
+        while (_) try {
+            if (f = 1, y && (t = op[0] & 2 ? y["return"] : op[0] ? y["throw"] || ((t = y["return"]) && t.call(y), 0) : y.next) && !(t = t.call(y, op[1])).done) return t;
+            if (y = 0, t) op = [op[0] & 2, t.value];
+            switch (op[0]) {
+                case 0: case 1: t = op; break;
+                case 4: _.label++; return { value: op[1], done: false };
+                case 5: _.label++; y = op[1]; op = [0]; continue;
+                case 7: op = _.ops.pop(); _.trys.pop(); continue;
+                default:
+                    if (!(t = _.trys, t = t.length > 0 && t[t.length - 1]) && (op[0] === 6 || op[0] === 2)) { _ = 0; continue; }
+                    if (op[0] === 3 && (!t || (op[1] > t[0] && op[1] < t[3]))) { _.label = op[1]; break; }
+                    if (op[0] === 6 && _.label < t[1]) { _.label = t[1]; t = op; break; }
+                    if (t && _.label < t[2]) { _.label = t[2]; _.ops.push(op); break; }
+                    if (t[2]) _.ops.pop();
+                    _.trys.pop(); continue;
+            }
+            op = body.call(thisArg, _);
+        } catch (e) { op = [6, e]; y = 0; } finally { f = t = 0; }
+        if (op[0] & 5) throw op[1]; return { value: op[0] ? op[1] : void 0, done: true };
+    }
+}
+
+function __exportStar(m, exports) {
+    for (var p in m) if (!exports.hasOwnProperty(p)) exports[p] = m[p];
+}
+
+function __values(o) {
+    var m = typeof Symbol === "function" && o[Symbol.iterator], i = 0;
+    if (m) return m.call(o);
+    return {
+        next: function () {
+            if (o && i >= o.length) o = void 0;
+            return { value: o && o[i++], done: !o };
+        }
+    };
+}
+
+function __read(o, n) {
+    var m = typeof Symbol === "function" && o[Symbol.iterator];
+    if (!m) return o;
+    var i = m.call(o), r, ar = [], e;
+    try {
+        while ((n === void 0 || n-- > 0) && !(r = i.next()).done) ar.push(r.value);
+    }
+    catch (error) { e = { error: error }; }
+    finally {
+        try {
+            if (r && !r.done && (m = i["return"])) m.call(i);
+        }
+        finally { if (e) throw e.error; }
+    }
+    return ar;
+}
+
+function __spread() {
+    for (var ar = [], i = 0; i < arguments.length; i++)
+        ar = ar.concat(__read(arguments[i]));
+    return ar;
+}
+
+function __spreadArrays() {
+    for (var s = 0, i = 0, il = arguments.length; i < il; i++) s += arguments[i].length;
+    for (var r = Array(s), k = 0, i = 0; i < il; i++)
+        for (var a = arguments[i], j = 0, jl = a.length; j < jl; j++, k++)
+            r[k] = a[j];
+    return r;
+};
+
+function __await(v) {
+    return this instanceof __await ? (this.v = v, this) : new __await(v);
+}
+
+function __asyncGenerator(thisArg, _arguments, generator) {
+    if (!Symbol.asyncIterator) throw new TypeError("Symbol.asyncIterator is not defined.");
+    var g = generator.apply(thisArg, _arguments || []), i, q = [];
+    return i = {}, verb("next"), verb("throw"), verb("return"), i[Symbol.asyncIterator] = function () { return this; }, i;
+    function verb(n) { if (g[n]) i[n] = function (v) { return new Promise(function (a, b) { q.push([n, v, a, b]) > 1 || resume(n, v); }); }; }
+    function resume(n, v) { try { step(g[n](v)); } catch (e) { settle(q[0][3], e); } }
+    function step(r) { r.value instanceof __await ? Promise.resolve(r.value.v).then(fulfill, reject) : settle(q[0][2], r); }
+    function fulfill(value) { resume("next", value); }
+    function reject(value) { resume("throw", value); }
+    function settle(f, v) { if (f(v), q.shift(), q.length) resume(q[0][0], q[0][1]); }
+}
+
+function __asyncDelegator(o) {
+    var i, p;
+    return i = {}, verb("next"), verb("throw", function (e) { throw e; }), verb("return"), i[Symbol.iterator] = function () { return this; }, i;
+    function verb(n, f) { i[n] = o[n] ? function (v) { return (p = !p) ? { value: __await(o[n](v)), done: n === "return" } : f ? f(v) : v; } : f; }
+}
+
+function __asyncValues(o) {
+    if (!Symbol.asyncIterator) throw new TypeError("Symbol.asyncIterator is not defined.");
+    var m = o[Symbol.asyncIterator], i;
+    return m ? m.call(o) : (o = typeof __values === "function" ? __values(o) : o[Symbol.iterator](), i = {}, verb("next"), verb("throw"), verb("return"), i[Symbol.asyncIterator] = function () { return this; }, i);
+    function verb(n) { i[n] = o[n] && function (v) { return new Promise(function (resolve, reject) { v = o[n](v), settle(resolve, reject, v.done, v.value); }); }; }
+    function settle(resolve, reject, d, v) { Promise.resolve(v).then(function(v) { resolve({ value: v, done: d }); }, reject); }
+}
+
+function __makeTemplateObject(cooked, raw) {
+    if (Object.defineProperty) { Object.defineProperty(cooked, "raw", { value: raw }); } else { cooked.raw = raw; }
+    return cooked;
+};
+
+function __importStar(mod) {
+    if (mod && mod.__esModule) return mod;
+    var result = {};
+    if (mod != null) for (var k in mod) if (Object.hasOwnProperty.call(mod, k)) result[k] = mod[k];
+    result.default = mod;
+    return result;
+}
+
+function __importDefault(mod) {
+    return (mod && mod.__esModule) ? mod : { default: mod };
+}
+
+
+/***/ }),
+
+/***/ "./node_modules/webpack/hot sync ^\\.\\/log$":
+/*!*************************************************!*\
+  !*** (webpack)/hot sync nonrecursive ^\.\/log$ ***!
+  \*************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var map = {
+	"./log": "./node_modules/webpack/hot/log.js"
+};
+
+
+function webpackContext(req) {
+	var id = webpackContextResolve(req);
+	return __webpack_require__(id);
+}
+function webpackContextResolve(req) {
+	if(!__webpack_require__.o(map, req)) {
+		var e = new Error("Cannot find module '" + req + "'");
+		e.code = 'MODULE_NOT_FOUND';
+		throw e;
+	}
+	return map[req];
+}
+webpackContext.keys = function webpackContextKeys() {
+	return Object.keys(map);
+};
+webpackContext.resolve = webpackContextResolve;
+module.exports = webpackContext;
+webpackContext.id = "./node_modules/webpack/hot sync ^\\.\\/log$";
+
+/***/ }),
+
+/***/ "./src/app/app-routing.module.ts":
+/*!***************************************!*\
+  !*** ./src/app/app-routing.module.ts ***!
+  \***************************************/
+/*! exports provided: AppRoutingModule */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AppRoutingModule", function() { return AppRoutingModule; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _components_add_component_add_component_component__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./components/add-component/add-component.component */ "./src/app/components/add-component/add-component.component.ts");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm2015/router.js");
+
+
+
+
+const routes = [
+    {
+        path: 'add',
+        component: _components_add_component_add_component_component__WEBPACK_IMPORTED_MODULE_1__["AddComponentComponent"]
+    }
+];
+let AppRoutingModule = class AppRoutingModule {
+};
+AppRoutingModule = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_2__["NgModule"])({
+        imports: [_angular_router__WEBPACK_IMPORTED_MODULE_3__["RouterModule"].forRoot(routes)],
+        exports: [_angular_router__WEBPACK_IMPORTED_MODULE_3__["RouterModule"]]
+    })
+], AppRoutingModule);
+
+
+
+/***/ }),
+
+/***/ "./src/app/app.component.scss":
+/*!************************************!*\
+  !*** ./src/app/app.component.scss ***!
+  \************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = (".container {\n  height: 900px;\n}\n\nimg {\n  float: right;\n  opacity: 0.9;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvQzpcXFVzZXJzXFxzbmVoXFxEZXNrdG9wXFxXZWIgRGVzaWduICYgVVhcXGFzc2lnbm1lbnQtOS1zbmVoYWx6YWdcXFRvZG8tQXBwL3NyY1xcYXBwXFxhcHAuY29tcG9uZW50LnNjc3MiLCJzcmMvYXBwL2FwcC5jb21wb25lbnQuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNJLGFBQUE7QUNDSjs7QURFQTtFQUNJLFlBQUE7RUFDQSxZQUFBO0FDQ0oiLCJmaWxlIjoic3JjL2FwcC9hcHAuY29tcG9uZW50LnNjc3MiLCJzb3VyY2VzQ29udGVudCI6WyIuY29udGFpbmVye1xyXG4gICAgaGVpZ2h0OiA5MDBweDsgIFxyXG59XHJcblxyXG5pbWd7XHJcbiAgICBmbG9hdDogcmlnaHQ7XHJcbiAgICBvcGFjaXR5OiAwLjk7XHJcbiAgICAvL21hcmdpbi1yaWdodDogNSU7XHJcbn0iLCIuY29udGFpbmVyIHtcbiAgaGVpZ2h0OiA5MDBweDtcbn1cblxuaW1nIHtcbiAgZmxvYXQ6IHJpZ2h0O1xuICBvcGFjaXR5OiAwLjk7XG59Il19 */");
+
+/***/ }),
+
+/***/ "./src/app/app.component.ts":
+/*!**********************************!*\
+  !*** ./src/app/app.component.ts ***!
+  \**********************************/
+/*! exports provided: AppComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AppComponent", function() { return AppComponent; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+
+
+let AppComponent = class AppComponent {
+    constructor() {
+        this.title = 'Todo-App';
+    }
+};
+AppComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+        selector: 'app-root',
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./app.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/app.component.html")).default,
+        styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./app.component.scss */ "./src/app/app.component.scss")).default]
+    })
+], AppComponent);
+
+
+
+/***/ }),
+
+/***/ "./src/app/app.module.ts":
+/*!*******************************!*\
+  !*** ./src/app/app.module.ts ***!
+  \*******************************/
+/*! exports provided: AppModule */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AppModule", function() { return AppModule; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_platform_browser__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/platform-browser */ "./node_modules/@angular/platform-browser/fesm2015/platform-browser.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/forms */ "./node_modules/@angular/forms/fesm2015/forms.js");
+/* harmony import */ var _angular_common_http__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/common/http */ "./node_modules/@angular/common/fesm2015/http.js");
+/* harmony import */ var _app_routing_module__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./app-routing.module */ "./src/app/app-routing.module.ts");
+/* harmony import */ var _app_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./app.component */ "./src/app/app.component.ts");
+/* harmony import */ var _components_todo_list_todo_list_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./components/todo-list/todo-list.component */ "./src/app/components/todo-list/todo-list.component.ts");
+/* harmony import */ var _components_add_component_add_component_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./components/add-component/add-component.component */ "./src/app/components/add-component/add-component.component.ts");
+
+
+
+
+
+
+
+
+
+let AppModule = class AppModule {
+};
+AppModule = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_2__["NgModule"])({
+        declarations: [
+            _app_component__WEBPACK_IMPORTED_MODULE_6__["AppComponent"],
+            _components_todo_list_todo_list_component__WEBPACK_IMPORTED_MODULE_7__["TodoListComponent"],
+            _components_add_component_add_component_component__WEBPACK_IMPORTED_MODULE_8__["AddComponentComponent"]
+        ],
+        imports: [
+            _angular_platform_browser__WEBPACK_IMPORTED_MODULE_1__["BrowserModule"],
+            _app_routing_module__WEBPACK_IMPORTED_MODULE_5__["AppRoutingModule"],
+            _angular_forms__WEBPACK_IMPORTED_MODULE_3__["FormsModule"],
+            _angular_common_http__WEBPACK_IMPORTED_MODULE_4__["HttpClientModule"]
+        ],
+        providers: [],
+        bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_6__["AppComponent"]]
+    })
+], AppModule);
+
+
+
+/***/ }),
+
+/***/ "./src/app/components/add-component/add-component.component.scss":
+/*!***********************************************************************!*\
+  !*** ./src/app/components/add-component/add-component.component.scss ***!
+  \***********************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2NvbXBvbmVudHMvYWRkLWNvbXBvbmVudC9hZGQtY29tcG9uZW50LmNvbXBvbmVudC5zY3NzIn0= */");
+
+/***/ }),
+
+/***/ "./src/app/components/add-component/add-component.component.ts":
+/*!*********************************************************************!*\
+  !*** ./src/app/components/add-component/add-component.component.ts ***!
+  \*********************************************************************/
+/*! exports provided: AddComponentComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AddComponentComponent", function() { return AddComponentComponent; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var _app_model_todo_model__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../app/model/todo-model */ "./src/app/model/todo-model.ts");
+/* harmony import */ var _components_component_service__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../components/component.service */ "./src/app/components/component.service.ts");
+
+
+
+
+let AddComponentComponent = class AddComponentComponent {
+    constructor(todoService) {
+        this.todoService = todoService;
+        this.todo = new _app_model_todo_model__WEBPACK_IMPORTED_MODULE_2__["Todo"]();
+    }
+    ngOnInit() {
+    }
+    addTodo() {
+        this.todo.completed = false;
+        this.todo.view = false;
+        this.todoService.add(this.todo).subscribe();
+        window.location.reload();
+    }
+};
+AddComponentComponent.ctorParameters = () => [
+    { type: _components_component_service__WEBPACK_IMPORTED_MODULE_3__["TodoService"] }
+];
+AddComponentComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+        selector: 'app-add-component',
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./add-component.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/components/add-component/add-component.component.html")).default,
+        styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./add-component.component.scss */ "./src/app/components/add-component/add-component.component.scss")).default]
+    })
+], AddComponentComponent);
+
+
+
+/***/ }),
+
+/***/ "./src/app/components/component.service.ts":
+/*!*************************************************!*\
+  !*** ./src/app/components/component.service.ts ***!
+  \*************************************************/
+/*! exports provided: TodoService */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "TodoService", function() { return TodoService; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var _angular_common_http__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/common/http */ "./node_modules/@angular/common/fesm2015/http.js");
+
+
+
+let TodoService = class TodoService {
+    constructor(http) {
+        this.http = http;
+    }
+    list() {
+        const todos$ = this.http.get('http://localhost:27017/todos');
+        return todos$;
+    }
+    delete(id) {
+        const todo$ = this.http.delete('http://localhost:27017/todos/' + id);
+        return todo$;
+    }
+    update(todo) {
+        const todos$ = this.http.put('http://localhost:27017/todos/' + todo.id, todo);
+        return todos$;
+    }
+    add(todo) {
+        const todos$ = this.http.post('http://localhost:27017/todos', todo);
+        return todos$;
+    }
+};
+TodoService.ctorParameters = () => [
+    { type: _angular_common_http__WEBPACK_IMPORTED_MODULE_2__["HttpClient"] }
+];
+TodoService = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Injectable"])({
+        providedIn: 'root'
+    })
+], TodoService);
+
+
+
+/***/ }),
+
+/***/ "./src/app/components/todo-list/todo-list.component.scss":
+/*!***************************************************************!*\
+  !*** ./src/app/components/todo-list/todo-list.component.scss ***!
+  \***************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = (".innerContainer {\n  margin-left: 10%;\n  width: 40%;\n}\n\nh1 {\n  text-align: center;\n  font-family: cursive;\n  font-weight: bold;\n  color: crimson;\n  font-size: 40px;\n  text-decoration: underline;\n}\n\n.div1 {\n  margin-left: 20%;\n  font-family: cursive;\n  font-weight: bold;\n}\n\n.addbtn {\n  margin-left: 120px;\n  width: 80px;\n  height: 30px;\n  color: #4c4966;\n  background-color: #b7d1e4;\n  font-weight: bold;\n  border-radius: 10px;\n}\n\n.inputText {\n  border-radius: 7px;\n  margin-left: 20px;\n  width: 220px;\n  height: 25px;\n}\n\n.div-left {\n  display: inline-flex;\n  margin-left: 20%;\n  font-family: cursive;\n  font-size: 20px;\n  width: 250px;\n  margin-top: 10px;\n}\n\n.chkbx {\n  width: 18px;\n  height: 18px;\n}\n\n.chkbx:checked {\n  text-decoration: underline;\n}\n\ninput[type=checkbox]:checked + div.todotext {\n  text-decoration: line-through;\n}\n\n.todo-item-view {\n  word-wrap: break-word;\n  font-family: cursive;\n  border-radius: 7px;\n  display: inline-flex;\n  margin-left: 25%;\n}\n\n.div-right {\n  margin-left: 20px;\n  display: inline;\n}\n\n.viewbtn {\n  background-image: url('view2.png');\n  border: none;\n  width: 23px;\n  height: 23px;\n  cursor: pointer;\n}\n\n.viewbtn:hover {\n  opacity: 0.5;\n}\n\n.editbtn {\n  background-image: url('pencil2.png');\n  border: none;\n  width: 23px;\n  height: 23px;\n  cursor: pointer;\n}\n\n.editbtn:hover {\n  opacity: 0.5;\n}\n\n.deletebtn {\n  background-image: url('delete.jpg');\n  border: none;\n  cursor: pointer;\n  width: 23px;\n  height: 23px;\n  font-weight: bold;\n  font-size: 22px;\n}\n\n.deletebtn:hover {\n  color: red;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy90b2RvLWxpc3QvQzpcXFVzZXJzXFxzbmVoXFxEZXNrdG9wXFxXZWIgRGVzaWduICYgVVhcXGFzc2lnbm1lbnQtOS1zbmVoYWx6YWdcXFRvZG8tQXBwL3NyY1xcYXBwXFxjb21wb25lbnRzXFx0b2RvLWxpc3RcXHRvZG8tbGlzdC5jb21wb25lbnQuc2NzcyIsInNyYy9hcHAvY29tcG9uZW50cy90b2RvLWxpc3QvdG9kby1saXN0LmNvbXBvbmVudC5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUVBO0VBQ0ksZ0JBQUE7RUFFQSxVQUFBO0FDRko7O0FET0E7RUFDSSxrQkFBQTtFQUNBLG9CQUFBO0VBQ0EsaUJBQUE7RUFDQSxjQUFBO0VBQ0EsZUFBQTtFQUNBLDBCQUFBO0FDSko7O0FEU0E7RUFDSSxnQkFBQTtFQUNBLG9CQUFBO0VBQ0EsaUJBQUE7QUNOSjs7QURTQTtFQUNJLGtCQUFBO0VBQ0EsV0FBQTtFQUNBLFlBQUE7RUFDQSxjQUFBO0VBQ0EseUJBQUE7RUFDQSxpQkFBQTtFQUNBLG1CQUFBO0FDTko7O0FEV0E7RUFDSSxrQkFBQTtFQUNBLGlCQUFBO0VBQ0EsWUFBQTtFQUNBLFlBQUE7QUNSSjs7QURhQTtFQUVJLG9CQUFBO0VBQ0EsZ0JBQUE7RUFDQSxvQkFBQTtFQUNBLGVBQUE7RUFDQSxZQUFBO0VBQ0EsZ0JBQUE7QUNYSjs7QURnQkE7RUFDSSxXQUFBO0VBQ0EsWUFBQTtBQ2JKOztBRGNJO0VBQ0ksMEJBQUE7QUNaUjs7QURpQkE7RUFDSSw2QkFBQTtBQ2RKOztBRG9CQTtFQUNJLHFCQUFBO0VBQ0Esb0JBQUE7RUFFQSxrQkFBQTtFQUNBLG9CQUFBO0VBQ0EsZ0JBQUE7QUNsQko7O0FEdUJBO0VBQ0ksaUJBQUE7RUFDQSxlQUFBO0FDcEJKOztBRHdCQTtFQUNJLGtDQUFBO0VBQ0EsWUFBQTtFQUNBLFdBQUE7RUFDQSxZQUFBO0VBQ0EsZUFBQTtBQ3JCSjs7QURzQkk7RUFDSSxZQUFBO0FDcEJSOztBRHlCQTtFQUNJLG9DQUFBO0VBQ0EsWUFBQTtFQUNBLFdBQUE7RUFDQSxZQUFBO0VBQ0EsZUFBQTtBQ3RCSjs7QUR1Qkk7RUFDSSxZQUFBO0FDckJSOztBRHlCQTtFQUNHLG1DQUFBO0VBQ0EsWUFBQTtFQUNBLGVBQUE7RUFDQSxXQUFBO0VBQ0MsWUFBQTtFQUNELGlCQUFBO0VBQ0EsZUFBQTtBQ3RCSDs7QUR1Qkc7RUFDSSxVQUFBO0FDckJQIiwiZmlsZSI6InNyYy9hcHAvY29tcG9uZW50cy90b2RvLWxpc3QvdG9kby1saXN0LmNvbXBvbmVudC5zY3NzIiwic291cmNlc0NvbnRlbnQiOlsiXHJcbi8vaW5uZXIgRGl2XHJcbi5pbm5lckNvbnRhaW5lcntcclxuICAgIG1hcmdpbi1sZWZ0OiAxMCU7XHJcbiAgICAvL2JvcmRlcjogMXB4IHNvbGlkIGJsYWNrO1xyXG4gICAgd2lkdGg6IDQwJTtcclxuICAgXHJcbn1cclxuXHJcbi8vaGVhZGVyIFxyXG5oMXtcclxuICAgIHRleHQtYWxpZ246IGNlbnRlcjtcclxuICAgIGZvbnQtZmFtaWx5OiBjdXJzaXZlO1xyXG4gICAgZm9udC13ZWlnaHQ6Ym9sZDtcclxuICAgIGNvbG9yOiBjcmltc29uO1xyXG4gICAgZm9udC1zaXplOiA0MHB4O1xyXG4gICAgdGV4dC1kZWNvcmF0aW9uOiB1bmRlcmxpbmU7XHJcbn1cclxuXHJcblxyXG4vL2lucHV0IGZpZWxkIGFuZCBhZGQgYnV0dG9uXHJcbi5kaXYxe1xyXG4gICAgbWFyZ2luLWxlZnQ6IDIwJTtcclxuICAgIGZvbnQtZmFtaWx5OiBjdXJzaXZlOyAgXHJcbiAgICBmb250LXdlaWdodDogYm9sZDsgIFxyXG59XHJcblxyXG4uYWRkYnRue1xyXG4gICAgbWFyZ2luLWxlZnQ6IDEyMHB4O1xyXG4gICAgd2lkdGg6IDgwcHg7XHJcbiAgICBoZWlnaHQ6IDMwcHg7XHJcbiAgICBjb2xvcjogcmdiKDc2LCA3MywgMTAyKTtcclxuICAgIGJhY2tncm91bmQtY29sb3I6IHJnYigxODMsIDIwOSwgMjI4KTtcclxuICAgIGZvbnQtd2VpZ2h0OiBib2xkO1xyXG4gICAgYm9yZGVyLXJhZGl1czogMTBweDtcclxuXHJcbn1cclxuXHJcbi8vXHJcbi5pbnB1dFRleHR7XHJcbiAgICBib3JkZXItcmFkaXVzOiA3cHg7XHJcbiAgICBtYXJnaW4tbGVmdDogMjBweDtcclxuICAgIHdpZHRoOiAyMjBweDtcclxuICAgIGhlaWdodDogMjVweDtcclxufVxyXG5cclxuXHJcbi8vQ2hlY2tCb3ggYW5kIHRleHQgZGl2XHJcbi5kaXYtbGVmdHtcclxuICAgIC8vZGlzcGxheTogaW5saW5lO1xyXG4gICAgZGlzcGxheTogaW5saW5lLWZsZXg7XHJcbiAgICBtYXJnaW4tbGVmdDogMjAlO1xyXG4gICAgZm9udC1mYW1pbHk6IGN1cnNpdmU7XHJcbiAgICBmb250LXNpemU6IDIwcHg7XHJcbiAgICB3aWR0aDogMjUwcHg7XHJcbiAgICBtYXJnaW4tdG9wOiAxMHB4O1xyXG4gICAgLy9ib3JkZXI6IDFweCBzb2xpZCBibGFjaztcclxufVxyXG5cclxuLy9jaGVja2JveFxyXG4uY2hrYnh7XHJcbiAgICB3aWR0aDogMThweDtcclxuICAgIGhlaWdodDogMThweDtcclxuICAgICY6Y2hlY2tlZCB7XHJcbiAgICAgICAgdGV4dC1kZWNvcmF0aW9uOiB1bmRlcmxpbmU7XHJcbiAgICB9XHJcbn1cclxuXHJcbi8vQ2hlY2sgYm94IGNoZWNrZWQgdGhlbiBzdHJpa2UgdGhlIHRleHRcclxuaW5wdXRbdHlwZT1jaGVja2JveF06Y2hlY2tlZCArIGRpdi50b2RvdGV4dHtcclxuICAgIHRleHQtZGVjb3JhdGlvbjogbGluZS10aHJvdWdoO1xyXG4gICAgXHJcbiAgfVxyXG5cclxuXHJcbi8vVmlldyB0ZXh0IGJveFxyXG4udG9kby1pdGVtLXZpZXd7XHJcbiAgICB3b3JkLXdyYXA6IGJyZWFrLXdvcmQ7XHJcbiAgICBmb250LWZhbWlseTogY3Vyc2l2ZTtcclxuICAgIC8vYm9yZGVyOiAxcHggc29saWQgYmxhY2s7XHJcbiAgICBib3JkZXItcmFkaXVzOiA3cHg7XHJcbiAgICBkaXNwbGF5OiBpbmxpbmUtZmxleDtcclxuICAgIG1hcmdpbi1sZWZ0OiAyNSU7XHJcbiAgICBcclxufVxyXG5cclxuLy9yZW1vdmUgYnV0dG9uIFxyXG4uZGl2LXJpZ2h0e1xyXG4gICAgbWFyZ2luLWxlZnQ6IDIwcHg7XHJcbiAgICBkaXNwbGF5OiBpbmxpbmU7XHJcbn1cclxuXHJcbi8vdmlldyBidXR0b25cclxuLnZpZXdidG57XHJcbiAgICBiYWNrZ3JvdW5kLWltYWdlOiB1cmwoLi4vLi4vLi4vYXNzZXRzL2ltYWdlcy92aWV3Mi5wbmcpO1xyXG4gICAgYm9yZGVyOiBub25lO1xyXG4gICAgd2lkdGg6IDIzcHg7XHJcbiAgICBoZWlnaHQ6IDIzcHg7XHJcbiAgICBjdXJzb3I6IHBvaW50ZXI7XHJcbiAgICAmOmhvdmVye1xyXG4gICAgICAgIG9wYWNpdHk6IDAuNTtcclxuICAgIH1cclxufVxyXG5cclxuLy9lZGl0IGJ1dHRvblxyXG4uZWRpdGJ0bntcclxuICAgIGJhY2tncm91bmQtaW1hZ2U6IHVybCguLi8uLi8uLi9hc3NldHMvaW1hZ2VzL3BlbmNpbDIucG5nKTtcclxuICAgIGJvcmRlcjogbm9uZTtcclxuICAgIHdpZHRoOiAyM3B4O1xyXG4gICAgaGVpZ2h0OiAyM3B4O1xyXG4gICAgY3Vyc29yOiBwb2ludGVyO1xyXG4gICAgJjpob3ZlcntcclxuICAgICAgICBvcGFjaXR5OiAwLjU7XHJcbiAgICB9XHJcbn1cclxuXHJcbi5kZWxldGVidG57XHJcbiAgIGJhY2tncm91bmQtaW1hZ2U6IHVybCguLi8uLi8uLi9hc3NldHMvaW1hZ2VzL2RlbGV0ZS5qcGcpO1xyXG4gICBib3JkZXI6IG5vbmU7XHJcbiAgIGN1cnNvcjogcG9pbnRlcjtcclxuICAgd2lkdGg6IDIzcHg7XHJcbiAgICBoZWlnaHQ6IDIzcHg7XHJcbiAgIGZvbnQtd2VpZ2h0OiBib2xkO1xyXG4gICBmb250LXNpemU6IDIycHg7XHJcbiAgICY6aG92ZXJ7XHJcbiAgICAgICBjb2xvcjogcmVkO1xyXG4gICB9XHJcblxyXG59XHJcblxyXG4iLCIuaW5uZXJDb250YWluZXIge1xuICBtYXJnaW4tbGVmdDogMTAlO1xuICB3aWR0aDogNDAlO1xufVxuXG5oMSB7XG4gIHRleHQtYWxpZ246IGNlbnRlcjtcbiAgZm9udC1mYW1pbHk6IGN1cnNpdmU7XG4gIGZvbnQtd2VpZ2h0OiBib2xkO1xuICBjb2xvcjogY3JpbXNvbjtcbiAgZm9udC1zaXplOiA0MHB4O1xuICB0ZXh0LWRlY29yYXRpb246IHVuZGVybGluZTtcbn1cblxuLmRpdjEge1xuICBtYXJnaW4tbGVmdDogMjAlO1xuICBmb250LWZhbWlseTogY3Vyc2l2ZTtcbiAgZm9udC13ZWlnaHQ6IGJvbGQ7XG59XG5cbi5hZGRidG4ge1xuICBtYXJnaW4tbGVmdDogMTIwcHg7XG4gIHdpZHRoOiA4MHB4O1xuICBoZWlnaHQ6IDMwcHg7XG4gIGNvbG9yOiAjNGM0OTY2O1xuICBiYWNrZ3JvdW5kLWNvbG9yOiAjYjdkMWU0O1xuICBmb250LXdlaWdodDogYm9sZDtcbiAgYm9yZGVyLXJhZGl1czogMTBweDtcbn1cblxuLmlucHV0VGV4dCB7XG4gIGJvcmRlci1yYWRpdXM6IDdweDtcbiAgbWFyZ2luLWxlZnQ6IDIwcHg7XG4gIHdpZHRoOiAyMjBweDtcbiAgaGVpZ2h0OiAyNXB4O1xufVxuXG4uZGl2LWxlZnQge1xuICBkaXNwbGF5OiBpbmxpbmUtZmxleDtcbiAgbWFyZ2luLWxlZnQ6IDIwJTtcbiAgZm9udC1mYW1pbHk6IGN1cnNpdmU7XG4gIGZvbnQtc2l6ZTogMjBweDtcbiAgd2lkdGg6IDI1MHB4O1xuICBtYXJnaW4tdG9wOiAxMHB4O1xufVxuXG4uY2hrYngge1xuICB3aWR0aDogMThweDtcbiAgaGVpZ2h0OiAxOHB4O1xufVxuLmNoa2J4OmNoZWNrZWQge1xuICB0ZXh0LWRlY29yYXRpb246IHVuZGVybGluZTtcbn1cblxuaW5wdXRbdHlwZT1jaGVja2JveF06Y2hlY2tlZCArIGRpdi50b2RvdGV4dCB7XG4gIHRleHQtZGVjb3JhdGlvbjogbGluZS10aHJvdWdoO1xufVxuXG4udG9kby1pdGVtLXZpZXcge1xuICB3b3JkLXdyYXA6IGJyZWFrLXdvcmQ7XG4gIGZvbnQtZmFtaWx5OiBjdXJzaXZlO1xuICBib3JkZXItcmFkaXVzOiA3cHg7XG4gIGRpc3BsYXk6IGlubGluZS1mbGV4O1xuICBtYXJnaW4tbGVmdDogMjUlO1xufVxuXG4uZGl2LXJpZ2h0IHtcbiAgbWFyZ2luLWxlZnQ6IDIwcHg7XG4gIGRpc3BsYXk6IGlubGluZTtcbn1cblxuLnZpZXdidG4ge1xuICBiYWNrZ3JvdW5kLWltYWdlOiB1cmwoLi4vLi4vLi4vYXNzZXRzL2ltYWdlcy92aWV3Mi5wbmcpO1xuICBib3JkZXI6IG5vbmU7XG4gIHdpZHRoOiAyM3B4O1xuICBoZWlnaHQ6IDIzcHg7XG4gIGN1cnNvcjogcG9pbnRlcjtcbn1cbi52aWV3YnRuOmhvdmVyIHtcbiAgb3BhY2l0eTogMC41O1xufVxuXG4uZWRpdGJ0biB7XG4gIGJhY2tncm91bmQtaW1hZ2U6IHVybCguLi8uLi8uLi9hc3NldHMvaW1hZ2VzL3BlbmNpbDIucG5nKTtcbiAgYm9yZGVyOiBub25lO1xuICB3aWR0aDogMjNweDtcbiAgaGVpZ2h0OiAyM3B4O1xuICBjdXJzb3I6IHBvaW50ZXI7XG59XG4uZWRpdGJ0bjpob3ZlciB7XG4gIG9wYWNpdHk6IDAuNTtcbn1cblxuLmRlbGV0ZWJ0biB7XG4gIGJhY2tncm91bmQtaW1hZ2U6IHVybCguLi8uLi8uLi9hc3NldHMvaW1hZ2VzL2RlbGV0ZS5qcGcpO1xuICBib3JkZXI6IG5vbmU7XG4gIGN1cnNvcjogcG9pbnRlcjtcbiAgd2lkdGg6IDIzcHg7XG4gIGhlaWdodDogMjNweDtcbiAgZm9udC13ZWlnaHQ6IGJvbGQ7XG4gIGZvbnQtc2l6ZTogMjJweDtcbn1cbi5kZWxldGVidG46aG92ZXIge1xuICBjb2xvcjogcmVkO1xufSJdfQ== */");
+
+/***/ }),
+
+/***/ "./src/app/components/todo-list/todo-list.component.ts":
+/*!*************************************************************!*\
+  !*** ./src/app/components/todo-list/todo-list.component.ts ***!
+  \*************************************************************/
+/*! exports provided: TodoListComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "TodoListComponent", function() { return TodoListComponent; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _model_todo_model__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./../../model/todo-model */ "./src/app/model/todo-model.ts");
+/* harmony import */ var _component_service__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./../component.service */ "./src/app/components/component.service.ts");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+
+
+
+
+let TodoListComponent = class TodoListComponent {
+    constructor(todoService) {
+        this.todoService = todoService;
+        this.todo = new _model_todo_model__WEBPACK_IMPORTED_MODULE_1__["Todo"]();
+    }
+    ngOnInit() {
+        this.todoService.list().subscribe(todo => {
+            this.todos = todo;
+        });
+        console.log(this.todos);
+    }
+    // addTodo():void {
+    //   this.todo.completed=false;
+    //   this.todo.view= false;
+    //   this.todoService.add(this.todo).subscribe();
+    //   window.location.reload();
+    // }
+    //On click view button
+    viewTodo(todo) {
+        console.log(todo);
+        if (!todo.view) {
+            todo.view = true;
+        }
+        else {
+            todo.view = false;
+        }
+    }
+    deleteTodo(todo) {
+        console.log(todo.id);
+        this.todoService.delete(todo.id).subscribe();
+        window.location.reload();
+    }
+    status(todo) {
+        if (!todo.completed) {
+            todo.completed = true;
+        }
+        else {
+            todo.completed = false;
+        }
+        this.todoService.update(todo).subscribe();
+        window.location.reload();
+    }
+};
+TodoListComponent.ctorParameters = () => [
+    { type: _component_service__WEBPACK_IMPORTED_MODULE_2__["TodoService"] }
+];
+TodoListComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_3__["Component"])({
+        selector: 'todo-list',
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./todo-list.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/components/todo-list/todo-list.component.html")).default,
+        styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./todo-list.component.scss */ "./src/app/components/todo-list/todo-list.component.scss")).default]
+    })
+], TodoListComponent);
+
+
+
+/***/ }),
+
+/***/ "./src/app/model/todo-model.ts":
+/*!*************************************!*\
+  !*** ./src/app/model/todo-model.ts ***!
+  \*************************************/
+/*! exports provided: Todo */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Todo", function() { return Todo; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+
+class Todo {
+}
+
+
+/***/ }),
+
+/***/ "./src/environments/environment.ts":
+/*!*****************************************!*\
+  !*** ./src/environments/environment.ts ***!
+  \*****************************************/
+/*! exports provided: environment */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "environment", function() { return environment; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+// This file can be replaced during build by using the `fileReplacements` array.
+// `ng build --prod` replaces `environment.ts` with `environment.prod.ts`.
+// The list of file replacements can be found in `angular.json`.
+
+const environment = {
+    production: false
+};
+/*
+ * For easier debugging in development mode, you can import the following file
+ * to ignore zone related error stack frames such as `zone.run`, `zoneDelegate.invokeTask`.
+ *
+ * This import should be commented out in production mode because it will have a negative impact
+ * on performance if an error is thrown.
+ */
+// import 'zone.js/dist/zone-error';  // Included with Angular CLI.
+
+
+/***/ }),
+
+/***/ "./src/main.ts":
+/*!*********************!*\
+  !*** ./src/main.ts ***!
+  \*********************/
+/*! no exports provided */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var _angular_platform_browser_dynamic__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/platform-browser-dynamic */ "./node_modules/@angular/platform-browser-dynamic/fesm2015/platform-browser-dynamic.js");
+/* harmony import */ var _app_app_module__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./app/app.module */ "./src/app/app.module.ts");
+/* harmony import */ var _environments_environment__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./environments/environment */ "./src/environments/environment.ts");
+
+
+
+
+
+if (_environments_environment__WEBPACK_IMPORTED_MODULE_4__["environment"].production) {
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["enableProdMode"])();
+}
+Object(_angular_platform_browser_dynamic__WEBPACK_IMPORTED_MODULE_2__["platformBrowserDynamic"])().bootstrapModule(_app_app_module__WEBPACK_IMPORTED_MODULE_3__["AppModule"])
+    .catch(err => console.error(err));
+
+
+/***/ }),
+
+/***/ 0:
+/*!**********************************************************************************************************!*\
+  !*** multi (webpack)-dev-server/client?http://0.0.0.0:0/sockjs-node&sockPath=/sockjs-node ./src/main.ts ***!
+  \**********************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+__webpack_require__(/*! C:\Users\sneh\Desktop\Web Design & UX\assignment-9-snehalzag\Todo-App\node_modules\webpack-dev-server\client\index.js?http://0.0.0.0:0/sockjs-node&sockPath=/sockjs-node */"./node_modules/webpack-dev-server/client/index.js?http://0.0.0.0:0/sockjs-node&sockPath=/sockjs-node");
+module.exports = __webpack_require__(/*! C:\Users\sneh\Desktop\Web Design & UX\assignment-9-snehalzag\Todo-App\src\main.ts */"./src/main.ts");
+
+
+/***/ })
+
+},[[0,"runtime","vendor"]]]);
+//# sourceMappingURL=main.js.map

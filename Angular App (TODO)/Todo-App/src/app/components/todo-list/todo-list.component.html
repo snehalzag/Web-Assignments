@@ -1,0 +1,60 @@
+<!--The page to display the list of all todo items-->
+<div class="innerContainer">
+
+    <!--Header-->
+    <h2>
+        To Add New Task:
+    </h2>
+
+    <!--Add button to add new todo item-->
+    <div class="div1">
+        <button class="addbtn">
+            <a routerLink="add" routerLinkActive="router-link-active">Add Task</a>
+        </button>
+
+        <br> <br>
+    </div>
+
+    <!--List of all todos fetched from REST API-->
+    <h1> List of ToDo</h1>
+    <div class="todoItem" *ngFor="let todo of todos">
+
+        <div class="div-left">
+            <span *ngIf="!todo.completed; else checkedTodo">
+                <input type="checkbox" class="chkbx" name="check" (change)="status(todo)">
+            </span>
+
+            <ng-template #checkedTodo>
+                <input type="checkbox" class="chkbx" name="check" checked (change)="status(todo)">
+            </ng-template>
+
+            <div class="todotext">
+                {{ todo.title }} <br>
+            </div>
+
+        </div>
+
+        <!--Buttons for view and Delete function-->
+        <div class="div-right">
+            <input type="button" class="viewbtn" (click)="viewTodo(todo)"> &nbsp;
+          <!--<input type="button" class="editbtn" (click)="editTodo(todo.id)">&nbsp;-->
+            <input type="button" class="deletebtn" (click)="deleteTodo(todo)">
+            <br>
+        </div>
+        <br>
+        <div *ngIf="!todo.view; else editingTodo"> </div>
+        <ng-template #editingTodo>
+            <div class="todo-item-view">
+
+                ID: {{todo.id}} <br>
+                Title: {{todo.title}} <br>
+                Description: {{todo.description}} <br>
+                Completed:{{todo.completed}} <br>
+                Date:{{todo.date}} <br>
+                Time:{{todo.time}} <br>
+
+            </div>
+        </ng-template>
+    </div>
+
+</div>
